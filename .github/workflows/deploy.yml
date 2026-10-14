@@ -56,7 +56,9 @@ jobs:
       - name: Build
         run: pnpm build
         env:
-          SITE_VARIANT: developerfred
+          # Same workflow, two surfaces: whichever repository runs it decides
+          # the brand. developerfred.github.io → developerfred, aipop-fun/site → aipop.
+          SITE_VARIANT: ${{ startsWith(github.repository, 'aipop-fun/') && 'aipop' || 'developerfred' }}
 
       - uses: actions/configure-pages@v6
 

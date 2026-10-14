@@ -92,8 +92,21 @@ SITE_VARIANT=aipop pnpm build
 | `developerfred` | `developerfred/developerfred.github.io` | `https://developerfred.github.io` |
 | `aipop` | `aipop-fun/site` | `https://aipop-fun.github.io/site` |
 
-For a custom domain, set it in **Settings → Pages → Custom domain**; to also write a `CNAME` file
-into the artifact, build with `SITE_CUSTOM_DOMAIN=aipop.fun`.
+`deploy.yml` derives the variant from `github.repository`, so the identical workflow publishes the
+right brand in each repository — nothing to keep in sync by hand.
+
+Two things worth knowing when wiring a new surface:
+
+- **Pages must be set to "GitHub Actions"**, not the legacy branch build. For a repository literally
+  named `<user>.github.io`, GitHub enables the legacy build automatically, and it will happily publish
+  the raw sources. Check with
+  `curl -H "Authorization: Bearer $TOKEN" https://api.github.com/repos/OWNER/REPO/pages` and switch
+  with `-X PUT -d '{"build_type":"workflow"}'` if it says `"build_type": "legacy"`.
+- **For a custom domain**, set it in **Settings → Pages → Custom domain**. To also write a `CNAME`
+  file into the artifact, build with `SITE_CUSTOM_DOMAIN=aipop.fun`.
+
+Remotion is free for individuals and small teams; companies above its threshold need a Remotion
+license — see <https://remotion.dev/license>.
 
 ## Structure
 
