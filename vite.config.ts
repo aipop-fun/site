@@ -160,10 +160,10 @@ Sitemap: ${variant.origin}/sitemap.xml
 export default defineConfig({
   base: './',
   plugins: [react(), sitePlugin()],
-  // site.config.ts reads SITE_VARIANT; inline it so the browser bundle carries a
-  // literal instead of an undefined `process` lookup.
+  // site.config.ts resolves the brand from this identifier; inlining it keeps
+  // the browser bundle free of any `process` lookup.
   define: {
-    'process.env.SITE_VARIANT': JSON.stringify(variant.id),
+    __SITE_VARIANT__: JSON.stringify(variant.id),
   },
   build: {
     target: 'es2022',

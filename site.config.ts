@@ -91,10 +91,24 @@ export const VARIANTS: Record<VariantId, BrandVariant> = {
   },
 };
 
-/** Browser-safe env read: the Remotion bundle has no `process` global. */
+/**
+ * Brand selection, resolved once per build.
+ *
+ * Vite replaces `__SITE_VARIANT__` with a string literal (see `define` in
+ * vite.config.ts) — a plain identifier, so the substitution cannot be masked by
+ * a `typeof process` guard the way an env lookup can.
+ *
+ * Everywhere else (the Remotion webpack bundle, node scripts) the identifier is
+ * genuinely undefined, `typeof` is safe on it, and we fall back to the real
+ * environment.
+ */
+declare const __SITE_VARIANT__: string | undefined;
+declare const process: { env: Record<string, string | undefined> } | undefined;
+
 function envVariant(): string | undefined {
+  if (typeof __SITE_VARIANT__ !== 'undefined') return __SITE_VARIANT__;
   if (typeof process === 'undefined') return undefined;
-  return process.env?.SITE_VARIANT;
+  return process.env.SITE_VARIANT;
 }
 
 export function resolveVariant(raw = envVariant()): BrandVariant {
