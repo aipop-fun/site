@@ -2,7 +2,18 @@ name: Deploy ledger
 
 # The whole point: nothing here is deployed by hand. Every six hours the
 # workflow re-reads the GitHub API, folds it into src/data/snapshot.json,
-# rebuilds the static artifact and hands it to Pages.
+# rebuilds the static artifact and publishes it.
+#
+# Two publish paths, chosen per repository with the PAGES_PUBLISH variable:
+#
+#   (unset / anything else)  → actions/deploy-pages, the Pages "GitHub Actions"
+#                              source. This is the default, and what
+#                              developerfred.github.io uses.
+#   PAGES_PUBLISH=branch     → push dist/ to the gh-pages branch. Use this when
+#                              a Pages site is stuck behind an in-progress
+#                              deployment in the Actions queue: the branch path
+#                              never touches the Pages deployments API.
+#                              Set Pages → Source → "Deploy from a branch".
 
 on:
   push:
@@ -15,7 +26,7 @@ on:
   workflow_dispatch:
 
 permissions:
-  contents: read
+  contents: write
   pages: write
   id-token: write
 
@@ -60,15 +71,28 @@ jobs:
           # the brand. developerfred.github.io → developerfred, aipop-fun/site → aipop.
           SITE_VARIANT: ${{ startsWith(github.repository, 'aipop-fun/') && 'aipop' || 'developerfred' }}
 
+      # The branch publisher needs the raw folder; the Pages publisher needs the
+      # Pages artifact. Each is emitted only on the path that consumes it.
+      - name: Pack dist for the branch publisher
+        if: ${{ vars.PAGES_PUBLISH == 'branch' }}
+        uses: actions/upload-artifact@v7
+        with:
+          name: dist
+          path: dist
+          retention-days: 5
+
       - uses: actions/configure-pages@v6
+        if: ${{ vars.PAGES_PUBLISH != 'branch' }}
 
       - uses: actions/upload-pages-artifact@v5
+        if: ${{ vars.PAGES_PUBLISH != 'branch' }}
         with:
           path: dist
 
   deploy:
     name: publish to pages
     needs: build
+    if: ${{ vars.PAGES_PUBLISH != 'branch' }}
     runs-on: ubuntu-latest
     environment:
       name: github-pages
@@ -76,3 +100,26 @@ jobs:
     steps:
       - id: deployment
         uses: actions/deploy-pages@v5
+
+  deploy-branch:
+    name: publish to gh-pages
+    needs: build
+    if: ${{ vars.PAGES_PUBLISH == 'branch' }}
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/download-artifact@v8
+        with:
+          name: dist
+          path: dist
+
+      - name: Tell Pages not to run Jekyll
+        run: touch dist/.nojekyll
+
+      - uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./dist
+          publish_branch: gh-pages
+          user_name: 'github-actions[bot]'
+          user_email: 'github-actions[bot]@users.noreply.github.com'
+          commit_message: 'deploy: ledger build from ${{ github.sha }}'

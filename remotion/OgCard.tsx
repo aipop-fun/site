@@ -15,6 +15,7 @@ export const OgCard: React.FC<LedgerReelProps> = (props) => {
       style={{
         backgroundColor: COLORS.ink,
         fontFamily: FONT,
+        fontFeatureSettings: "'calt' 0, 'cv01' 1",
         color: COLORS.paper,
         padding: 56,
         display: 'flex',

@@ -104,6 +104,20 @@ Two things worth knowing when wiring a new surface:
   with `-X PUT -d '{"build_type":"workflow"}'` if it says `"build_type": "legacy"`.
 - **For a custom domain**, set it in **Settings → Pages → Custom domain**. To also write a `CNAME`
   file into the artifact, build with `SITE_CUSTOM_DOMAIN=aipop.fun`.
+- **If a deployment ever reports `Deployment request failed … due to in progress deployment`**, the
+  Pages queue is stuck behind a deployment that was superseded mid-flight. It cannot be cancelled
+  through the REST API (the cancel endpoint wants an internal Pages id). Two ways out: cancel it by
+  hand in the repository's Actions UI, or set the repository variable `PAGES_PUBLISH=branch` and
+  switch Pages → Source to *Deploy from a branch: gh-pages*. `deploy.yml` then publishes through
+  `peaceiris/actions-gh-pages` instead, which never touches the Pages deployments API. That is how
+  `aipop-fun/site` is published.
+
+```bash
+# flip a repository to the branch publisher
+curl -X POST -H "Authorization: Bearer $TOKEN" \
+  https://api.github.com/repos/OWNER/REPO/actions/variables \
+  -d '{"name":"PAGES_PUBLISH","value":"branch"}'
+```
 
 Remotion is free for individuals and small teams; companies above its threshold need a Remotion
 license — see <https://remotion.dev/license>.

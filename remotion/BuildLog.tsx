@@ -54,7 +54,8 @@ export const BuildLog: React.FC<LedgerReelProps> = (props) => {
   });
 
   return (
-    <AbsoluteFill style={{ backgroundColor: COLORS.ink, fontFamily: FONT, color: COLORS.paper }}>
+    <AbsoluteFill style={{ backgroundColor: COLORS.ink, fontFamily: FONT,
+        fontFeatureSettings: "'calt' 0, 'cv01' 1", color: COLORS.paper }}>
       <Grid width={width} height={height} opacity={0.5 * boot} />
 
       {/* scanline */}

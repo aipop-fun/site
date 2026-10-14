@@ -34,7 +34,11 @@ body {
   line-height: 1.62;
   font-weight: 400;
   font-variant-ligatures: none; /* Iosevka's programming ligatures hurt UI copy */
-  font-feature-settings: 'calt' 0;
+  /* cv01 = slashed zero: this page is mostly numerals, and the default dotted
+     zero turns into an 8 at micro sizes. The subset keeps the alternate. */
+  font-feature-settings:
+    'calt' 0,
+    'cv01' 1;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-rendering: optimizeLegibility;
