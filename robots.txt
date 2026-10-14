@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://aipop-fun.github.io/site/sitemap.xml
