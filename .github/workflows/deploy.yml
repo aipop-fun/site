@@ -1,0 +1,76 @@
+name: Deploy ledger
+
+# The whole point: nothing here is deployed by hand. Every six hours the
+# workflow re-reads the GitHub API, folds it into src/data/snapshot.json,
+# rebuilds the static artifact and hands it to Pages.
+
+on:
+  push:
+    branches: [main]
+    paths-ignore:
+      - 'public/media/**'
+      - '**.md'
+  schedule:
+    - cron: '0 */6 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    name: sync · typecheck · build
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: pnpm/action-setup@v4
+        with:
+          version: 11
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: pnpm
+
+      - name: Install
+        run: pnpm install --frozen-lockfile
+
+      - name: Sync the GitHub ledger
+        # A failed crawl must not take the site down: the committed snapshot is
+        # still a valid input, so the build continues on the last known state.
+        continue-on-error: true
+        run: pnpm sync
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Typecheck
+        run: pnpm typecheck
+
+      - name: Build
+        run: pnpm build
+        env:
+          SITE_VARIANT: developerfred
+
+      - uses: actions/configure-pages@v5
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: dist
+
+  deploy:
+    name: publish to pages
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4

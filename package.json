@@ -1,0 +1,40 @@
+{
+  "name": "codingsh-ledger",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Auto-updating landing page for developerfred + aipop-fun, built with TypeScript, Remotion and Iosevka.",
+  "packageManager": "pnpm@11.7.0",
+  "scripts": {
+    "sync": "node scripts/sync-github.mjs",
+    "sync:offline": "node scripts/sync-github.mjs --offline",
+    "fonts": "node scripts/build-fonts.mjs",
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview --port 4173",
+    "typecheck": "tsc --noEmit",
+    "remotion:studio": "remotion studio remotion/index.ts",
+    "remotion:still": "remotion still remotion/index.ts OgCard public/media/og.png",
+    "remotion:render": "remotion render remotion/index.ts BuildLog public/media/build-log.mp4 --codec h264",
+    "verify": "node scripts/verify.mjs"
+  },
+  "dependencies": {
+    "@remotion/fonts": "4.0.535",
+    "@remotion/player": "4.0.535",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0",
+    "remotion": "4.0.535"
+  },
+  "devDependencies": {
+    "@fontsource/iosevka": "^5.3.0",
+    "@remotion/bundler": "4.0.535",
+    "@remotion/cli": "4.0.535",
+    "@types/react": "^19.2.0",
+    "@types/react-dom": "^19.2.0",
+    "@vitejs/plugin-react": "^5.0.0",
+    "puppeteer-core": "^25.13.0",
+    "subset-font": "^2.9.0",
+    "typescript": "^5.9.0",
+    "vite": "^7.1.0"
+  }
+}

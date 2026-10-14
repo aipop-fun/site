@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <link rel="icon" href="./favicon.svg" type="image/svg+xml" />
+    <link rel="apple-touch-icon" href="./favicon.svg" />
+    <link
+      rel="preload"
+      href="./fonts/iosevka-400.woff2"
+      as="font"
+      type="font/woff2"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="preload"
+      href="./fonts/iosevka-700.woff2"
+      as="font"
+      type="font/woff2"
+      crossorigin="anonymous"
+    />
+    <!--site-head-->
+  </head>
+  <body>
+    <div id="root"></div>
+    <noscript>
+      <div style="padding: 12vh 6vw; font-family: monospace">
+        <h1>codingsh — the build ledger</h1>
+        <p>
+          This ledger renders live from the GitHub API. Without JavaScript you can still read the
+          source of truth:
+          <a href="https://github.com/developerfred">github.com/developerfred</a> ·
+          <a href="https://github.com/aipop-fun">github.com/aipop-fun</a> ·
+          <a href="./data/snapshot.json">snapshot.json</a>
+        </p>
+      </div>
+    </noscript>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

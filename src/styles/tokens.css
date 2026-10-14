@@ -1,0 +1,92 @@
+/* ============================================================================
+   THE LEDGER — design tokens
+   A phosphor-on-ink instrument for reading a GitHub account as a ledger.
+   Two surfaces: `ink` (screen, dark) and `sheet` (a printed datasheet, light).
+   ========================================================================= */
+
+:root {
+  /* --- surfaces: ink ------------------------------------------------------ */
+  --ink: #07080a;
+  --ink-raised: #0b0d11;
+  --ink-soft: #101319;
+  --ink-deep: #040507;
+
+  /* --- type colour ------------------------------------------------------- */
+  --paper: #e9e7e0;
+  --paper-dim: #b9b7ae;
+  --muted: #6e7580;
+  --faint: #454b55;
+
+  /* --- hairlines --------------------------------------------------------- */
+  --line: rgba(233, 231, 224, 0.1);
+  --line-soft: rgba(233, 231, 224, 0.055);
+  --line-strong: rgba(233, 231, 224, 0.22);
+
+  /* --- signal ------------------------------------------------------------ */
+  --accent: #ff3b14;
+  --accent-soft: rgba(255, 59, 20, 0.14);
+  --accent-ink: #07080a;
+  --phosphor: #b4f52e;
+  --phosphor-soft: rgba(180, 245, 46, 0.14);
+  --cyan: #5fd8f5;
+  --amber: #ffb020;
+
+  /* --- surfaces: sheet (printed datasheet) ------------------------------- */
+  --sheet: #efede4;
+  --sheet-raised: #f7f5ed;
+  --sheet-ink: #101216;
+  --sheet-dim: #4c4d4a;
+  --sheet-muted: #6f6e66;
+  --sheet-line: rgba(16, 18, 22, 0.14);
+  --sheet-line-strong: rgba(16, 18, 22, 0.34);
+  --sheet-accent: #d92d00;
+
+  /* --- type -------------------------------------------------------------- */
+  --font-ledger: 'Iosevka Ledger', 'Iosevka', ui-monospace, 'SF Mono', 'Cascadia Mono', Menlo,
+    Consolas, monospace;
+
+  --step--1: clamp(10.5px, 0.66vw, 11.5px);
+  --step-0: clamp(13.5px, 0.92vw, 15.5px);
+  --step-1: clamp(16px, 1.15vw, 19px);
+  --step-2: clamp(21px, 1.8vw, 29px);
+  --step-3: clamp(28px, 3.2vw, 50px);
+  --step-4: clamp(40px, 5.6vw, 88px);
+  --step-5: clamp(58px, 11vw, 190px);
+
+  --tracking-micro: 0.2em;
+  --tracking-tight: -0.02em;
+  --tracking-display: -0.045em;
+
+  /* --- layout ------------------------------------------------------------ */
+  --maxw: 1560px;
+  --gutter: clamp(16px, 3.4vw, 48px);
+  --section-y: clamp(72px, 9.5vw, 150px);
+  --rail: clamp(38px, 5vw, 78px); /* left index rail */
+
+  /* --- motion ------------------------------------------------------------ */
+  --ease-out: cubic-bezier(0.16, 1, 0.3, 1);
+  --ease-in-out: cubic-bezier(0.65, 0, 0.35, 1);
+  --ease-step: cubic-bezier(0.9, 0, 0.1, 1);
+  --dur-1: 140ms;
+  --dur-2: 320ms;
+  --dur-3: 720ms;
+  --dur-4: 1400ms;
+
+  --radius: 2px;
+
+  color-scheme: dark;
+}
+
+/* aipop.fun edition: same instrument, different phosphor */
+:root[data-variant='aipop'] {
+  --ink: #08070a;
+  --accent: #c6ff3d;
+  --accent-soft: rgba(198, 255, 61, 0.14);
+  --accent-ink: #08070a;
+  --phosphor: #8bd8ff;
+  --phosphor-soft: rgba(139, 216, 255, 0.14);
+  --cyan: #ffc46b;
+  --amber: #ff8a4c;
+  --sheet-accent: #3f7a00;
+  --theme-color: #08070a;
+}

@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="ledger">
+  <rect width="64" height="64" fill="#07080a" />
+  <rect x="12" y="13" width="40" height="4" fill="#e9e7e0" />
+  <rect x="12" y="23" width="24" height="4" fill="#e9e7e0" />
+  <rect x="12" y="33" width="40" height="4" fill="#e9e7e0" />
+  <rect x="12" y="43" width="14" height="9" fill="#ff3b14" />
+  <rect x="30" y="43" width="22" height="9" fill="#3a3f47" />
+</svg>

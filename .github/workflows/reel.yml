@@ -1,0 +1,55 @@
+name: Render reel
+
+# Remotion needs a browser, so the MP4 and the OG still are rendered on a
+# schedule (and on demand) instead of on every deploy. The result is committed
+# back into public/media, which is why deploy.yml ignores that path.
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 4 * * 1'
+
+permissions:
+  contents: write
+
+jobs:
+  render:
+    name: remotion render · still
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: pnpm/action-setup@v4
+        with:
+          version: 11
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: pnpm
+
+      - name: Install
+        run: pnpm install --frozen-lockfile
+
+      - name: Refresh the snapshot first
+        continue-on-error: true
+        run: pnpm sync
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Ensure a Chrome Headless Shell
+        run: pnpm exec remotion browser ensure
+
+      - name: Render BuildLog.mp4
+        run: >-
+          pnpm exec remotion render remotion/index.ts BuildLog
+          public/media/build-log.mp4 --codec h264 --crf 20 --pixel-format yuv420p
+
+      - name: Render the og:image
+        run: pnpm exec remotion still remotion/index.ts OgCard public/media/og.png
+
+      - name: Commit the rendered media
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: 'chore(reel): re-render ledger video and og image'
+          file_pattern: 'public/media/* src/data/snapshot.json public/data/snapshot.json'

@@ -1,0 +1,123 @@
+.reel__grid > * {
+  min-width: 0;
+}
+
+.reel__grid {
+  display: grid;
+  grid-template-columns: minmax(0, 8fr) minmax(0, 4fr);
+  gap: clamp(22px, 3.4vw, 56px);
+  align-items: start;
+}
+
+.reel__stage {
+  display: flex;
+  flex-direction: column;
+  gap: clamp(16px, 2vw, 26px);
+}
+
+.reel__screen {
+  position: relative;
+  aspect-ratio: 16 / 9;
+  background: var(--ink-deep);
+  overflow: hidden;
+}
+
+.reel__video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.reel__live {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.reel__player {
+  position: relative;
+  aspect-ratio: 16 / 9;
+  border: 1px solid var(--line);
+  background: var(--ink);
+  overflow: hidden;
+}
+.reel__player > div {
+  position: absolute;
+  inset: 0;
+}
+
+.reel__side {
+  display: flex;
+  flex-direction: column;
+  gap: clamp(14px, 1.8vw, 22px);
+}
+
+.composition {
+  border: 1px solid var(--line);
+  background: var(--ink-raised);
+  padding: clamp(15px, 1.8vw, 22px);
+}
+
+.composition--flat {
+  background: transparent;
+  border-style: dashed;
+}
+
+.composition__head {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 12px;
+  border-bottom: 1px solid var(--line);
+  padding-bottom: 11px;
+  margin-bottom: 13px;
+}
+.composition__head h3 {
+  font-size: var(--step-1);
+  font-weight: 700;
+  letter-spacing: var(--tracking-tight);
+}
+.composition__head .micro {
+  color: var(--accent);
+}
+
+.composition__note {
+  font-size: var(--step--1);
+  line-height: 1.6;
+  color: var(--paper-dim);
+}
+.composition__note b {
+  color: var(--paper);
+  font-weight: 500;
+}
+
+.composition__specs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-top: 14px;
+}
+.composition__specs li {
+  font-size: 10px;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--muted);
+  border: 1px solid var(--line);
+  padding: 4px 7px;
+}
+
+.composition__cmd {
+  display: block;
+  margin-top: 14px;
+  padding-top: 12px;
+  border-top: 1px solid var(--line);
+  font-size: var(--step--1);
+  color: var(--phosphor);
+  overflow-wrap: anywhere;
+}
+
+@media (max-width: 1080px) {
+  .reel__grid {
+    grid-template-columns: 1fr;
+  }
+}
