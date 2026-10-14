@@ -1,4 +1,5 @@
 import raw from '../data/snapshot.json';
+import { variant } from '../../site.config';
 import type { Counted, LedgerReelProps, Repo, Snapshot } from './types';
 import { EVENT_LABEL, compact, grouped, index, languageColor, shortRef } from './format';
 
@@ -6,8 +7,11 @@ export const snapshot = raw as unknown as Snapshot;
 export const { stats, profiles, events, topRepos, languageBreakdown, activityByDay, generatedAt } =
   snapshot;
 
-/** The lead account for the active variant, plus every aggregated account. */
-export const leadProfile = profiles[0];
+/**
+ * The account that leads the page: the variant's own owner, whatever order the
+ * sync happened to write the profiles in. Both accounts are always aggregated.
+ */
+export const leadProfile = profiles.find((p) => p.login === variant.owner) ?? profiles[0];
 export const allProfiles = profiles;
 
 export const repos: Repo[] = [...snapshot.repos].sort((a, b) => Date.parse(b.pushed) - Date.parse(a.pushed));
