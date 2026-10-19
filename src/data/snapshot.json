@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-14T17:44:28.144Z",
+  "generatedAt": "2026-10-19T09:24:09.760Z",
   "generator": "scripts/sync-github.mjs",
   "accounts": [
     "developerfred",
@@ -12,9 +12,9 @@
       "name": "codingsh",
       "bio": "Blockchain Developer, White Hat, Bridge builder and Decentralization specialist\n\nENS: codingsh.eth",
       "avatar": "https://avatars.githubusercontent.com/u/57037080?v=4",
-      "followers": 486,
-      "following": 1645,
-      "publicRepos": 1204,
+      "followers": 487,
+      "following": 1648,
+      "publicRepos": 1211,
       "publicGists": 56,
       "location": "codingsh.eth",
       "company": null,
@@ -22,7 +22,7 @@
       "twitter": "Codingsh",
       "hireable": true,
       "createdAt": "2019-10-26T12:23:58Z",
-      "updatedAt": "2026-09-24T21:56:28Z",
+      "updatedAt": "2026-10-14T20:10:10Z",
       "url": "https://github.com/developerfred"
     },
     {
@@ -33,7 +33,7 @@
       "avatar": "https://avatars.githubusercontent.com/u/192451351?v=4",
       "followers": 3,
       "following": 0,
-      "publicRepos": 30,
+      "publicRepos": 31,
       "publicGists": 0,
       "location": "United Kingdom",
       "company": null,
@@ -48,6 +48,96 @@
   "repos": [
     {
       "owner": "aipop-fun",
+      "name": "site",
+      "desc": "aipop.fun — studio ledger. The same self-updating engine as developerfred.github.io, under the studio brand.",
+      "lang": "TypeScript",
+      "stars": 0,
+      "forks": 0,
+      "issues": 0,
+      "size": 9626,
+      "pushed": "2026-10-19T03:22:25Z",
+      "created": "2026-10-14T18:15:03Z",
+      "url": "https://github.com/aipop-fun/site",
+      "home": "https://aipop-fun.github.io/site",
+      "topics": [],
+      "archived": false,
+      "fork": false,
+      "license": null
+    },
+    {
+      "owner": "developerfred",
+      "name": "developerfred",
+      "desc": null,
+      "lang": null,
+      "stars": 1,
+      "forks": 2,
+      "issues": 6,
+      "size": 30228,
+      "pushed": "2026-10-19T02:42:55Z",
+      "created": "2020-11-12T14:55:20Z",
+      "url": "https://github.com/developerfred/developerfred",
+      "home": null,
+      "topics": [],
+      "archived": false,
+      "fork": false,
+      "license": "MIT"
+    },
+    {
+      "owner": "developerfred",
+      "name": "ElixirClaw",
+      "desc": null,
+      "lang": "Elixir",
+      "stars": 20,
+      "forks": 1,
+      "issues": 0,
+      "size": 1731,
+      "pushed": "2026-10-18T21:24:09Z",
+      "created": "2026-02-19T18:04:41Z",
+      "url": "https://github.com/developerfred/ElixirClaw",
+      "home": null,
+      "topics": [],
+      "archived": false,
+      "fork": false,
+      "license": null
+    },
+    {
+      "owner": "developerfred",
+      "name": "doc-router",
+      "desc": "Your agent spends most of its context reading documentation it doesn't use.",
+      "lang": "Rust",
+      "stars": 0,
+      "forks": 0,
+      "issues": 0,
+      "size": 32,
+      "pushed": "2026-10-14T21:30:13Z",
+      "created": "2026-10-14T20:06:00Z",
+      "url": "https://github.com/developerfred/doc-router",
+      "home": null,
+      "topics": [],
+      "archived": false,
+      "fork": false,
+      "license": null
+    },
+    {
+      "owner": "developerfred",
+      "name": "developerfred.github.io",
+      "desc": "codingsh — an auto-updating build ledger of everything developerfred and aipop-fun ship. Iosevka, Remotion, TypeScript.",
+      "lang": "TypeScript",
+      "stars": 0,
+      "forks": 0,
+      "issues": 0,
+      "size": 5586,
+      "pushed": "2026-10-14T18:36:38Z",
+      "created": "2026-10-14T18:14:58Z",
+      "url": "https://github.com/developerfred/developerfred.github.io",
+      "home": "https://developerfred.github.io",
+      "topics": [],
+      "archived": false,
+      "fork": false,
+      "license": null
+    },
+    {
+      "owner": "aipop-fun",
       "name": "weft",
       "desc": null,
       "lang": "TypeScript",
@@ -58,24 +148,6 @@
       "pushed": "2026-10-14T11:59:31Z",
       "created": "2026-10-14T10:30:46Z",
       "url": "https://github.com/aipop-fun/weft",
-      "home": null,
-      "topics": [],
-      "archived": false,
-      "fork": false,
-      "license": "MIT"
-    },
-    {
-      "owner": "developerfred",
-      "name": "developerfred",
-      "desc": null,
-      "lang": null,
-      "stars": 1,
-      "forks": 2,
-      "issues": 6,
-      "size": 30072,
-      "pushed": "2026-10-14T03:00:55Z",
-      "created": "2020-11-12T14:55:20Z",
-      "url": "https://github.com/developerfred/developerfred",
       "home": null,
       "topics": [],
       "archived": false,
@@ -762,24 +834,6 @@
       "pushed": "2026-02-22T21:31:26Z",
       "created": "2026-02-22T21:31:26Z",
       "url": "https://github.com/developerfred/afa",
-      "home": null,
-      "topics": [],
-      "archived": false,
-      "fork": false,
-      "license": null
-    },
-    {
-      "owner": "developerfred",
-      "name": "ElixirClaw",
-      "desc": null,
-      "lang": "Elixir",
-      "stars": 20,
-      "forks": 1,
-      "issues": 0,
-      "size": 1667,
-      "pushed": "2026-02-20T12:29:18Z",
-      "created": "2026-02-19T18:04:41Z",
-      "url": "https://github.com/developerfred/ElixirClaw",
       "home": null,
       "topics": [],
       "archived": false,
@@ -3228,6 +3282,438 @@
   "events": [
     {
       "account": "developerfred",
+      "type": "PushEvent",
+      "repo": "developerfred/ElixirClaw",
+      "at": "2026-10-18T21:24:10Z",
+      "ref": "refs/heads/main",
+      "refType": null,
+      "action": null,
+      "commits": 0,
+      "message": null,
+      "release": null
+    },
+    {
+      "account": "developerfred",
+      "type": "PullRequestEvent",
+      "repo": "developerfred/ElixirClaw",
+      "at": "2026-10-18T21:24:09Z",
+      "ref": null,
+      "refType": null,
+      "action": "merged",
+      "commits": 0,
+      "message": null,
+      "release": null
+    },
+    {
+      "account": "developerfred",
+      "type": "PullRequestEvent",
+      "repo": "developerfred/ElixirClaw",
+      "at": "2026-10-18T21:21:41Z",
+      "ref": null,
+      "refType": null,
+      "action": "opened",
+      "commits": 0,
+      "message": null,
+      "release": null
+    },
+    {
+      "account": "developerfred",
+      "type": "PushEvent",
+      "repo": "developerfred/ElixirClaw",
+      "at": "2026-10-18T21:20:02Z",
+      "ref": "refs/heads/chore/repo-hygiene",
+      "refType": null,
+      "action": null,
+      "commits": 0,
+      "message": null,
+      "release": null
+    },
+    {
+      "account": "developerfred",
+      "type": "PullRequestEvent",
+      "repo": "developerfred/ElixirClaw",
+      "at": "2026-10-18T21:20:00Z",
+      "ref": null,
+      "refType": null,
+      "action": "merged",
+      "commits": 0,
+      "message": null,
+      "release": null
+    },
+    {
+      "account": "developerfred",
+      "type": "PullRequestEvent",
+      "repo": "developerfred/ElixirClaw",
+      "at": "2026-10-18T21:18:17Z",
+      "ref": null,
+      "refType": null,
+      "action": "opened",
+      "commits": 0,
+      "message": null,
+      "release": null
+    },
+    {
+      "account": "developerfred",
+      "type": "CreateEvent",
+      "repo": "developerfred/ElixirClaw",
+      "at": "2026-10-18T21:18:16Z",
+      "ref": "fix/dashboard-liveview",
+      "refType": "branch",
+      "action": null,
+      "commits": 0,
+      "message": null,
+      "release": null
+    },
+    {
+      "account": "developerfred",
+      "type": "PushEvent",
+      "repo": "developerfred/unreal-engine-skills-for-claude-code-plugin",
+      "at": "2026-10-18T21:13:29Z",
+      "ref": "refs/heads/docs/mcp-toolset-quirks",
+      "refType": null,
+      "action": null,
+      "commits": 0,
+      "message": null,
+      "release": null
+    },
+    {
+      "account": "developerfred",
+      "type": "PullRequestEvent",
+      "repo": "developerfred/ElixirClaw",
+      "at": "2026-10-18T21:08:52Z",
+      "ref": null,
+      "refType": null,
+      "action": "merged",
+      "commits": 0,
+      "message": null,
+      "release": null
+    },
+    {
+      "account": "developerfred",
+      "type": "PullRequestEvent",
+      "repo": "developerfred/ElixirClaw",
+      "at": "2026-10-18T21:02:25Z",
+      "ref": null,
+      "refType": null,
+      "action": "opened",
+      "commits": 0,
+      "message": null,
+      "release": null
+    },
+    {
+      "account": "developerfred",
+      "type": "PullRequestEvent",
+      "repo": "stellar/go-stellar-sdk",
+      "at": "2026-10-18T20:41:28Z",
+      "ref": null,
+      "refType": null,
+      "action": "opened",
+      "commits": 0,
+      "message": null,
+      "release": null
+    },
+    {
+      "account": "developerfred",
+      "type": "ForkEvent",
+      "repo": "stellar/go-stellar-sdk",
+      "at": "2026-10-18T20:41:04Z",
+      "ref": null,
+      "refType": null,
+      "action": "forked",
+      "commits": 0,
+      "message": null,
+      "release": null
+    },
+    {
+      "account": "developerfred",
+      "type": "PullRequestEvent",
+      "repo": "triggerdotdev/trigger.dev",
+      "at": "2026-10-18T20:11:59Z",
+      "ref": null,
+      "refType": null,
+      "action": "opened",
+      "commits": 0,
+      "message": null,
+      "release": null
+    },
+    {
+      "account": "developerfred",
+      "type": "CreateEvent",
+      "repo": "developerfred/trigger.dev",
+      "at": "2026-10-18T20:11:47Z",
+      "ref": "fix/extra-ca-certs-deploy",
+      "refType": "branch",
+      "action": null,
+      "commits": 0,
+      "message": null,
+      "release": null
+    },
+    {
+      "account": "developerfred",
+      "type": "PullRequestEvent",
+      "repo": "EpicGames/unreal-engine-skills-for-claude-code-plugin",
+      "at": "2026-10-18T20:06:45Z",
+      "ref": null,
+      "refType": null,
+      "action": "opened",
+      "commits": 0,
+      "message": null,
+      "release": null
+    },
+    {
+      "account": "developerfred",
+      "type": "ForkEvent",
+      "repo": "EpicGames/unreal-engine-skills-for-claude-code-plugin",
+      "at": "2026-10-18T19:56:07Z",
+      "ref": null,
+      "refType": null,
+      "action": "forked",
+      "commits": 0,
+      "message": null,
+      "release": null
+    },
+    {
+      "account": "developerfred",
+      "type": "PullRequestEvent",
+      "repo": "0x4007/codex-goal-supervisor",
+      "at": "2026-10-18T19:01:52Z",
+      "ref": null,
+      "refType": null,
+      "action": "opened",
+      "commits": 0,
+      "message": null,
+      "release": null
+    },
+    {
+      "account": "developerfred",
+      "type": "ForkEvent",
+      "repo": "0x4007/codex-goal-supervisor",
+      "at": "2026-10-18T18:59:55Z",
+      "ref": null,
+      "refType": null,
+      "action": "forked",
+      "commits": 0,
+      "message": null,
+      "release": null
+    },
+    {
+      "account": "developerfred",
+      "type": "ForkEvent",
+      "repo": "NousResearch/hermes-agent",
+      "at": "2026-10-15T21:38:31Z",
+      "ref": null,
+      "refType": null,
+      "action": "forked",
+      "commits": 0,
+      "message": null,
+      "release": null
+    },
+    {
+      "account": "developerfred",
+      "type": "ForkEvent",
+      "repo": "crtahlin/wasp",
+      "at": "2026-10-15T13:33:08Z",
+      "ref": null,
+      "refType": null,
+      "action": "forked",
+      "commits": 0,
+      "message": null,
+      "release": null
+    },
+    {
+      "account": "developerfred",
+      "type": "PushEvent",
+      "repo": "developerfred/doc-router",
+      "at": "2026-10-14T21:30:14Z",
+      "ref": "refs/heads/main",
+      "refType": null,
+      "action": null,
+      "commits": 0,
+      "message": null,
+      "release": null
+    },
+    {
+      "account": "developerfred",
+      "type": "PushEvent",
+      "repo": "developerfred/doc-router",
+      "at": "2026-10-14T20:55:29Z",
+      "ref": "refs/heads/main",
+      "refType": null,
+      "action": null,
+      "commits": 0,
+      "message": null,
+      "release": null
+    },
+    {
+      "account": "developerfred",
+      "type": "PushEvent",
+      "repo": "developerfred/doc-router",
+      "at": "2026-10-14T20:54:44Z",
+      "ref": "refs/heads/main",
+      "refType": null,
+      "action": null,
+      "commits": 0,
+      "message": null,
+      "release": null
+    },
+    {
+      "account": "developerfred",
+      "type": "CreateEvent",
+      "repo": "developerfred/doc-router",
+      "at": "2026-10-14T20:11:31Z",
+      "ref": "main",
+      "refType": "branch",
+      "action": null,
+      "commits": 0,
+      "message": null,
+      "release": null
+    },
+    {
+      "account": "developerfred",
+      "type": "PushEvent",
+      "repo": "aipop-fun/site",
+      "at": "2026-10-14T18:36:41Z",
+      "ref": "refs/heads/main",
+      "refType": null,
+      "action": null,
+      "commits": 0,
+      "message": null,
+      "release": null
+    },
+    {
+      "account": "developerfred",
+      "type": "PushEvent",
+      "repo": "developerfred/developerfred.github.io",
+      "at": "2026-10-14T18:36:39Z",
+      "ref": "refs/heads/main",
+      "refType": null,
+      "action": null,
+      "commits": 0,
+      "message": null,
+      "release": null
+    },
+    {
+      "account": "developerfred",
+      "type": "PushEvent",
+      "repo": "aipop-fun/site",
+      "at": "2026-10-14T18:31:35Z",
+      "ref": "refs/heads/main",
+      "refType": null,
+      "action": null,
+      "commits": 0,
+      "message": null,
+      "release": null
+    },
+    {
+      "account": "developerfred",
+      "type": "PushEvent",
+      "repo": "developerfred/developerfred.github.io",
+      "at": "2026-10-14T18:31:33Z",
+      "ref": "refs/heads/main",
+      "refType": null,
+      "action": null,
+      "commits": 0,
+      "message": null,
+      "release": null
+    },
+    {
+      "account": "developerfred",
+      "type": "PushEvent",
+      "repo": "developerfred/developerfred.github.io",
+      "at": "2026-10-14T18:26:56Z",
+      "ref": "refs/heads/main",
+      "refType": null,
+      "action": null,
+      "commits": 0,
+      "message": null,
+      "release": null
+    },
+    {
+      "account": "developerfred",
+      "type": "PushEvent",
+      "repo": "aipop-fun/site",
+      "at": "2026-10-14T18:26:53Z",
+      "ref": "refs/heads/main",
+      "refType": null,
+      "action": null,
+      "commits": 0,
+      "message": null,
+      "release": null
+    },
+    {
+      "account": "developerfred",
+      "type": "PushEvent",
+      "repo": "aipop-fun/site",
+      "at": "2026-10-14T18:17:00Z",
+      "ref": "refs/heads/main",
+      "refType": null,
+      "action": null,
+      "commits": 0,
+      "message": null,
+      "release": null
+    },
+    {
+      "account": "developerfred",
+      "type": "PushEvent",
+      "repo": "developerfred/developerfred.github.io",
+      "at": "2026-10-14T18:16:58Z",
+      "ref": "refs/heads/main",
+      "refType": null,
+      "action": null,
+      "commits": 0,
+      "message": null,
+      "release": null
+    },
+    {
+      "account": "developerfred",
+      "type": "PushEvent",
+      "repo": "aipop-fun/site",
+      "at": "2026-10-14T18:16:34Z",
+      "ref": "refs/heads/main",
+      "refType": null,
+      "action": null,
+      "commits": 0,
+      "message": null,
+      "release": null
+    },
+    {
+      "account": "developerfred",
+      "type": "PushEvent",
+      "repo": "developerfred/developerfred.github.io",
+      "at": "2026-10-14T18:16:32Z",
+      "ref": "refs/heads/main",
+      "refType": null,
+      "action": null,
+      "commits": 0,
+      "message": null,
+      "release": null
+    },
+    {
+      "account": "developerfred",
+      "type": "CreateEvent",
+      "repo": "aipop-fun/site",
+      "at": "2026-10-14T18:15:20Z",
+      "ref": "main",
+      "refType": "branch",
+      "action": null,
+      "commits": 0,
+      "message": null,
+      "release": null
+    },
+    {
+      "account": "developerfred",
+      "type": "CreateEvent",
+      "repo": "developerfred/developerfred.github.io",
+      "at": "2026-10-14T18:15:14Z",
+      "ref": "main",
+      "refType": "branch",
+      "action": null,
+      "commits": 0,
+      "message": null,
+      "release": null
+    },
+    {
+      "account": "developerfred",
       "type": "PublicEvent",
       "repo": "aipop-fun/weft",
       "at": "2026-10-14T10:30:46Z",
@@ -3273,438 +3759,6 @@
       "commits": 0,
       "message": null,
       "release": "v0.1.0"
-    },
-    {
-      "account": "developerfred",
-      "type": "ReleaseEvent",
-      "repo": "developerfred/soroban-dependency-sentinel",
-      "at": "2026-10-13T22:05:05Z",
-      "ref": null,
-      "refType": null,
-      "action": "published",
-      "commits": 0,
-      "message": null,
-      "release": "v0.2.0"
-    },
-    {
-      "account": "developerfred",
-      "type": "PullRequestEvent",
-      "repo": "developerfred/soroban-dependency-sentinel",
-      "at": "2026-10-13T21:56:02Z",
-      "ref": null,
-      "refType": null,
-      "action": "closed",
-      "commits": 0,
-      "message": null,
-      "release": null
-    },
-    {
-      "account": "developerfred",
-      "type": "PushEvent",
-      "repo": "developerfred/x402-cow-gateway",
-      "at": "2026-10-09T23:18:00Z",
-      "ref": "refs/heads/main",
-      "refType": null,
-      "action": null,
-      "commits": 0,
-      "message": null,
-      "release": null
-    },
-    {
-      "account": "developerfred",
-      "type": "PullRequestEvent",
-      "repo": "developerfred/x402-cow-gateway",
-      "at": "2026-10-09T23:17:59Z",
-      "ref": null,
-      "refType": null,
-      "action": "merged",
-      "commits": 0,
-      "message": null,
-      "release": null
-    },
-    {
-      "account": "developerfred",
-      "type": "PullRequestEvent",
-      "repo": "developerfred/x402-cow-gateway",
-      "at": "2026-10-09T23:14:32Z",
-      "ref": null,
-      "refType": null,
-      "action": "opened",
-      "commits": 0,
-      "message": null,
-      "release": null
-    },
-    {
-      "account": "developerfred",
-      "type": "CreateEvent",
-      "repo": "developerfred/x402-cow-gateway",
-      "at": "2026-10-09T23:14:08Z",
-      "ref": "feat/smart-wallets",
-      "refType": "branch",
-      "action": null,
-      "commits": 0,
-      "message": null,
-      "release": null
-    },
-    {
-      "account": "developerfred",
-      "type": "CreateEvent",
-      "repo": "developerfred/x402-cow-gateway",
-      "at": "2026-10-09T22:45:36Z",
-      "ref": "main",
-      "refType": "branch",
-      "action": null,
-      "commits": 0,
-      "message": null,
-      "release": null
-    },
-    {
-      "account": "developerfred",
-      "type": "PushEvent",
-      "repo": "developerfred/agent-blackbox",
-      "at": "2026-10-09T22:09:03Z",
-      "ref": "refs/heads/main",
-      "refType": null,
-      "action": null,
-      "commits": 0,
-      "message": null,
-      "release": null
-    },
-    {
-      "account": "developerfred",
-      "type": "PullRequestEvent",
-      "repo": "developerfred/agent-blackbox",
-      "at": "2026-10-09T22:09:02Z",
-      "ref": null,
-      "refType": null,
-      "action": "merged",
-      "commits": 0,
-      "message": null,
-      "release": null
-    },
-    {
-      "account": "developerfred",
-      "type": "PushEvent",
-      "repo": "developerfred/agent-blackbox",
-      "at": "2026-10-09T22:08:55Z",
-      "ref": "refs/heads/main",
-      "refType": null,
-      "action": null,
-      "commits": 0,
-      "message": null,
-      "release": null
-    },
-    {
-      "account": "developerfred",
-      "type": "PullRequestEvent",
-      "repo": "developerfred/agent-blackbox",
-      "at": "2026-10-09T22:08:54Z",
-      "ref": null,
-      "refType": null,
-      "action": "merged",
-      "commits": 0,
-      "message": null,
-      "release": null
-    },
-    {
-      "account": "developerfred",
-      "type": "PushEvent",
-      "repo": "developerfred/agent-blackbox",
-      "at": "2026-10-09T22:08:45Z",
-      "ref": "refs/heads/main",
-      "refType": null,
-      "action": null,
-      "commits": 0,
-      "message": null,
-      "release": null
-    },
-    {
-      "account": "developerfred",
-      "type": "PushEvent",
-      "repo": "developerfred/agent-blackbox",
-      "at": "2026-10-09T22:08:43Z",
-      "ref": "refs/heads/main",
-      "refType": null,
-      "action": null,
-      "commits": 0,
-      "message": null,
-      "release": null
-    },
-    {
-      "account": "developerfred",
-      "type": "PullRequestEvent",
-      "repo": "developerfred/agent-blackbox",
-      "at": "2026-10-09T22:08:42Z",
-      "ref": null,
-      "refType": null,
-      "action": "merged",
-      "commits": 0,
-      "message": null,
-      "release": null
-    },
-    {
-      "account": "developerfred",
-      "type": "PushEvent",
-      "repo": "developerfred/agent-blackbox",
-      "at": "2026-10-09T22:08:41Z",
-      "ref": "refs/heads/main",
-      "refType": null,
-      "action": null,
-      "commits": 0,
-      "message": null,
-      "release": null
-    },
-    {
-      "account": "developerfred",
-      "type": "PushEvent",
-      "repo": "developerfred/agent-blackbox",
-      "at": "2026-10-09T22:08:39Z",
-      "ref": "refs/heads/main",
-      "refType": null,
-      "action": null,
-      "commits": 0,
-      "message": null,
-      "release": null
-    },
-    {
-      "account": "developerfred",
-      "type": "PushEvent",
-      "repo": "developerfred/agent-blackbox",
-      "at": "2026-10-09T22:08:31Z",
-      "ref": "refs/heads/main",
-      "refType": null,
-      "action": null,
-      "commits": 0,
-      "message": null,
-      "release": null
-    },
-    {
-      "account": "developerfred",
-      "type": "PushEvent",
-      "repo": "developerfred/agent-blackbox",
-      "at": "2026-10-09T22:08:27Z",
-      "ref": "refs/heads/main",
-      "refType": null,
-      "action": null,
-      "commits": 0,
-      "message": null,
-      "release": null
-    },
-    {
-      "account": "developerfred",
-      "type": "PullRequestEvent",
-      "repo": "developerfred/agent-blackbox",
-      "at": "2026-10-09T22:08:26Z",
-      "ref": null,
-      "refType": null,
-      "action": "merged",
-      "commits": 0,
-      "message": null,
-      "release": null
-    },
-    {
-      "account": "developerfred",
-      "type": "PushEvent",
-      "repo": "developerfred/agent-blackbox",
-      "at": "2026-10-09T22:08:09Z",
-      "ref": "refs/heads/main",
-      "refType": null,
-      "action": null,
-      "commits": 0,
-      "message": null,
-      "release": null
-    },
-    {
-      "account": "developerfred",
-      "type": "PullRequestEvent",
-      "repo": "developerfred/agent-blackbox",
-      "at": "2026-10-09T22:08:08Z",
-      "ref": null,
-      "refType": null,
-      "action": "merged",
-      "commits": 0,
-      "message": null,
-      "release": null
-    },
-    {
-      "account": "developerfred",
-      "type": "PullRequestEvent",
-      "repo": "developerfred/agent-blackbox",
-      "at": "2026-10-09T22:07:49Z",
-      "ref": null,
-      "refType": null,
-      "action": "assigned",
-      "commits": 0,
-      "message": null,
-      "release": null
-    },
-    {
-      "account": "developerfred",
-      "type": "PullRequestEvent",
-      "repo": "developerfred/agent-blackbox",
-      "at": "2026-10-09T22:07:49Z",
-      "ref": null,
-      "refType": null,
-      "action": "opened",
-      "commits": 0,
-      "message": null,
-      "release": null
-    },
-    {
-      "account": "developerfred",
-      "type": "PullRequestEvent",
-      "repo": "developerfred/agent-blackbox",
-      "at": "2026-10-09T22:07:45Z",
-      "ref": null,
-      "refType": null,
-      "action": "assigned",
-      "commits": 0,
-      "message": null,
-      "release": null
-    },
-    {
-      "account": "developerfred",
-      "type": "PullRequestEvent",
-      "repo": "developerfred/agent-blackbox",
-      "at": "2026-10-09T22:07:45Z",
-      "ref": null,
-      "refType": null,
-      "action": "opened",
-      "commits": 0,
-      "message": null,
-      "release": null
-    },
-    {
-      "account": "developerfred",
-      "type": "PullRequestEvent",
-      "repo": "developerfred/agent-blackbox",
-      "at": "2026-10-09T22:07:41Z",
-      "ref": null,
-      "refType": null,
-      "action": "assigned",
-      "commits": 0,
-      "message": null,
-      "release": null
-    },
-    {
-      "account": "developerfred",
-      "type": "PullRequestEvent",
-      "repo": "developerfred/agent-blackbox",
-      "at": "2026-10-09T22:07:41Z",
-      "ref": null,
-      "refType": null,
-      "action": "opened",
-      "commits": 0,
-      "message": null,
-      "release": null
-    },
-    {
-      "account": "developerfred",
-      "type": "PullRequestEvent",
-      "repo": "developerfred/agent-blackbox",
-      "at": "2026-10-09T22:07:37Z",
-      "ref": null,
-      "refType": null,
-      "action": "assigned",
-      "commits": 0,
-      "message": null,
-      "release": null
-    },
-    {
-      "account": "developerfred",
-      "type": "PullRequestEvent",
-      "repo": "developerfred/agent-blackbox",
-      "at": "2026-10-09T22:07:37Z",
-      "ref": null,
-      "refType": null,
-      "action": "opened",
-      "commits": 0,
-      "message": null,
-      "release": null
-    },
-    {
-      "account": "developerfred",
-      "type": "PushEvent",
-      "repo": "developerfred/agent-blackbox",
-      "at": "2026-10-09T22:07:28Z",
-      "ref": "refs/heads/docs/skill-run-eval-and-bench",
-      "refType": null,
-      "action": null,
-      "commits": 0,
-      "message": null,
-      "release": null
-    },
-    {
-      "account": "developerfred",
-      "type": "CreateEvent",
-      "repo": "developerfred/agent-blackbox",
-      "at": "2026-10-09T22:07:19Z",
-      "ref": "docs/skill-run-eval-and-bench",
-      "refType": "branch",
-      "action": null,
-      "commits": 0,
-      "message": null,
-      "release": null
-    },
-    {
-      "account": "developerfred",
-      "type": "CreateEvent",
-      "repo": "developerfred/agent-blackbox",
-      "at": "2026-10-09T22:06:59Z",
-      "ref": "docs/skill-add-detection-rule",
-      "refType": "branch",
-      "action": null,
-      "commits": 0,
-      "message": null,
-      "release": null
-    },
-    {
-      "account": "developerfred",
-      "type": "PushEvent",
-      "repo": "developerfred/agent-blackbox",
-      "at": "2026-10-09T22:06:57Z",
-      "ref": "refs/heads/docs/skill-release",
-      "refType": null,
-      "action": null,
-      "commits": 0,
-      "message": null,
-      "release": null
-    },
-    {
-      "account": "developerfred",
-      "type": "CreateEvent",
-      "repo": "developerfred/agent-blackbox",
-      "at": "2026-10-09T22:06:43Z",
-      "ref": "docs/skill-release",
-      "refType": "branch",
-      "action": null,
-      "commits": 0,
-      "message": null,
-      "release": null
-    },
-    {
-      "account": "developerfred",
-      "type": "CreateEvent",
-      "repo": "developerfred/agent-blackbox",
-      "at": "2026-10-09T22:06:30Z",
-      "ref": "claude/project-thread-fgndzv",
-      "refType": "branch",
-      "action": null,
-      "commits": 0,
-      "message": null,
-      "release": null
-    },
-    {
-      "account": "developerfred",
-      "type": "PullRequestEvent",
-      "repo": "developerfred/agent-blackbox",
-      "at": "2026-10-09T22:06:15Z",
-      "ref": null,
-      "refType": null,
-      "action": "assigned",
-      "commits": 0,
-      "message": null,
-      "release": null
     }
   ],
   "topRepos": [
@@ -3716,8 +3770,8 @@
       "stars": 20,
       "forks": 1,
       "issues": 0,
-      "size": 1667,
-      "pushed": "2026-02-20T12:29:18Z",
+      "size": 1731,
+      "pushed": "2026-10-18T21:24:09Z",
       "created": "2026-02-19T18:04:41Z",
       "url": "https://github.com/developerfred/ElixirClaw",
       "home": null,
@@ -3878,7 +3932,7 @@
   "languageBreakdown": [
     {
       "name": "TypeScript",
-      "count": 100
+      "count": 102
     },
     {
       "name": "JavaScript",
@@ -3886,7 +3940,7 @@
     },
     {
       "name": "Rust",
-      "count": 14
+      "count": 15
     },
     {
       "name": "Python",
@@ -3942,46 +3996,26 @@
     }
   ],
   "stats": {
-    "totalRepos": 1234,
-    "trackedRepos": 1234,
-    "originalRepos": 174,
-    "forkedRepos": 1060,
+    "totalRepos": 1242,
+    "trackedRepos": 1242,
+    "originalRepos": 177,
+    "forkedRepos": 1065,
     "archivedRepos": 0,
-    "totalStars": 154,
+    "totalStars": 155,
     "totalForks": 100,
     "totalIssues": 429,
-    "followers": 489,
+    "followers": 490,
     "totalGists": 56,
     "languages": 14,
     "languagesAll": 20,
-    "pushed7d": 5,
-    "pushed30d": 7,
-    "pushed90d": 9,
-    "latestPush": "2026-10-14T11:59:31Z",
+    "pushed7d": 13,
+    "pushed30d": 17,
+    "pushed90d": 19,
+    "latestPush": "2026-10-19T03:22:25Z",
     "firstRepo": "2019-10-26T19:42:29Z",
-    "newestRepo": "2026-10-14T10:30:46Z"
+    "newestRepo": "2026-10-18T20:41:04Z"
   },
   "activityByDay": [
-    {
-      "date": "2026-09-24",
-      "count": 0
-    },
-    {
-      "date": "2026-09-25",
-      "count": 0
-    },
-    {
-      "date": "2026-09-26",
-      "count": 0
-    },
-    {
-      "date": "2026-09-27",
-      "count": 0
-    },
-    {
-      "date": "2026-09-28",
-      "count": 0
-    },
     {
       "date": "2026-09-29",
       "count": 0
@@ -4004,7 +4038,7 @@
     },
     {
       "date": "2026-10-04",
-      "count": 15
+      "count": 0
     },
     {
       "date": "2026-10-05",
@@ -4012,7 +4046,7 @@
     },
     {
       "date": "2026-10-06",
-      "count": 1
+      "count": 0
     },
     {
       "date": "2026-10-07",
@@ -4020,11 +4054,11 @@
     },
     {
       "date": "2026-10-08",
-      "count": 39
+      "count": 7
     },
     {
       "date": "2026-10-09",
-      "count": 38
+      "count": 32
     },
     {
       "date": "2026-10-10",
@@ -4040,11 +4074,31 @@
     },
     {
       "date": "2026-10-13",
-      "count": 5
+      "count": 7
     },
     {
       "date": "2026-10-14",
+      "count": 20
+    },
+    {
+      "date": "2026-10-15",
+      "count": 5
+    },
+    {
+      "date": "2026-10-16",
+      "count": 0
+    },
+    {
+      "date": "2026-10-17",
       "count": 2
+    },
+    {
+      "date": "2026-10-18",
+      "count": 27
+    },
+    {
+      "date": "2026-10-19",
+      "count": 0
     }
   ]
 }
