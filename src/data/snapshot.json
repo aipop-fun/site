@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-19T09:24:09.760Z",
+  "generatedAt": "2026-10-26T09:27:56.096Z",
   "generator": "scripts/sync-github.mjs",
   "accounts": [
     "developerfred",
@@ -14,7 +14,7 @@
       "avatar": "https://avatars.githubusercontent.com/u/57037080?v=4",
       "followers": 487,
       "following": 1648,
-      "publicRepos": 1211,
+      "publicRepos": 1214,
       "publicGists": 56,
       "location": "codingsh.eth",
       "company": null,
@@ -22,7 +22,7 @@
       "twitter": "Codingsh",
       "hireable": true,
       "createdAt": "2019-10-26T12:23:58Z",
-      "updatedAt": "2026-10-14T20:10:10Z",
+      "updatedAt": "2026-10-24T21:37:24Z",
       "url": "https://github.com/developerfred"
     },
     {
@@ -47,6 +47,24 @@
   ],
   "repos": [
     {
+      "owner": "developerfred",
+      "name": "nata-stellar",
+      "desc": null,
+      "lang": "TypeScript",
+      "stars": 0,
+      "forks": 0,
+      "issues": 2,
+      "size": 1529,
+      "pushed": "2026-10-26T09:06:02Z",
+      "created": "2026-10-25T22:22:46Z",
+      "url": "https://github.com/developerfred/nata-stellar",
+      "home": null,
+      "topics": [],
+      "archived": false,
+      "fork": false,
+      "license": "Apache-2.0"
+    },
+    {
       "owner": "aipop-fun",
       "name": "site",
       "desc": "aipop.fun — studio ledger. The same self-updating engine as developerfred.github.io, under the studio brand.",
@@ -54,8 +72,8 @@
       "stars": 0,
       "forks": 0,
       "issues": 0,
-      "size": 9626,
-      "pushed": "2026-10-19T03:22:25Z",
+      "size": 9131,
+      "pushed": "2026-10-26T03:20:54Z",
       "created": "2026-10-14T18:15:03Z",
       "url": "https://github.com/aipop-fun/site",
       "home": "https://aipop-fun.github.io/site",
@@ -72,8 +90,8 @@
       "stars": 1,
       "forks": 2,
       "issues": 6,
-      "size": 30228,
-      "pushed": "2026-10-19T02:42:55Z",
+      "size": 30540,
+      "pushed": "2026-10-26T02:37:34Z",
       "created": "2020-11-12T14:55:20Z",
       "url": "https://github.com/developerfred/developerfred",
       "home": null,
@@ -81,6 +99,42 @@
       "archived": false,
       "fork": false,
       "license": "MIT"
+    },
+    {
+      "owner": "developerfred",
+      "name": "-math-agent-skills",
+      "desc": null,
+      "lang": null,
+      "stars": 0,
+      "forks": 0,
+      "issues": 0,
+      "size": 321,
+      "pushed": "2026-10-19T22:20:46Z",
+      "created": "2026-10-19T21:24:37Z",
+      "url": "https://github.com/developerfred/-math-agent-skills",
+      "home": "https://developerfred.github.io/-math-agent-skills",
+      "topics": [],
+      "archived": false,
+      "fork": false,
+      "license": null
+    },
+    {
+      "owner": "developerfred",
+      "name": "developerfred.github.io",
+      "desc": "codingsh — an auto-updating build ledger of everything developerfred and aipop-fun ship. Iosevka, Remotion, TypeScript.",
+      "lang": "TypeScript",
+      "stars": 0,
+      "forks": 0,
+      "issues": 0,
+      "size": 6860,
+      "pushed": "2026-10-19T09:34:58Z",
+      "created": "2026-10-14T18:14:58Z",
+      "url": "https://github.com/developerfred/developerfred.github.io",
+      "home": "https://developerfred.github.io",
+      "topics": [],
+      "archived": false,
+      "fork": false,
+      "license": null
     },
     {
       "owner": "developerfred",
@@ -113,24 +167,6 @@
       "created": "2026-10-14T20:06:00Z",
       "url": "https://github.com/developerfred/doc-router",
       "home": null,
-      "topics": [],
-      "archived": false,
-      "fork": false,
-      "license": null
-    },
-    {
-      "owner": "developerfred",
-      "name": "developerfred.github.io",
-      "desc": "codingsh — an auto-updating build ledger of everything developerfred and aipop-fun ship. Iosevka, Remotion, TypeScript.",
-      "lang": "TypeScript",
-      "stars": 0,
-      "forks": 0,
-      "issues": 0,
-      "size": 5586,
-      "pushed": "2026-10-14T18:36:38Z",
-      "created": "2026-10-14T18:14:58Z",
-      "url": "https://github.com/developerfred/developerfred.github.io",
-      "home": "https://developerfred.github.io",
       "topics": [],
       "archived": false,
       "fork": false,
@@ -197,7 +233,7 @@
       "lang": "TypeScript",
       "stars": 0,
       "forks": 0,
-      "issues": 0,
+      "issues": 1,
       "size": 62,
       "pushed": "2026-10-09T23:17:58Z",
       "created": "2026-10-09T22:45:29Z",
@@ -3282,9 +3318,57 @@
   "events": [
     {
       "account": "developerfred",
+      "type": "PullRequestEvent",
+      "repo": "developerfred/nata-stellar",
+      "at": "2026-10-26T09:06:10Z",
+      "ref": null,
+      "refType": null,
+      "action": "assigned",
+      "commits": 0,
+      "message": null,
+      "release": null
+    },
+    {
+      "account": "developerfred",
+      "type": "PullRequestEvent",
+      "repo": "developerfred/nata-stellar",
+      "at": "2026-10-26T09:06:10Z",
+      "ref": null,
+      "refType": null,
+      "action": "opened",
+      "commits": 0,
+      "message": null,
+      "release": null
+    },
+    {
+      "account": "developerfred",
       "type": "PushEvent",
-      "repo": "developerfred/ElixirClaw",
-      "at": "2026-10-18T21:24:10Z",
+      "repo": "developerfred/nata-stellar",
+      "at": "2026-10-26T01:11:31Z",
+      "ref": "refs/heads/claude/project-thread-lbyksv",
+      "refType": null,
+      "action": null,
+      "commits": 0,
+      "message": null,
+      "release": null
+    },
+    {
+      "account": "developerfred",
+      "type": "PushEvent",
+      "repo": "developerfred/nata-stellar",
+      "at": "2026-10-26T01:11:25Z",
+      "ref": "refs/heads/claude/project-thread-lbyksv",
+      "refType": null,
+      "action": null,
+      "commits": 0,
+      "message": null,
+      "release": null
+    },
+    {
+      "account": "developerfred",
+      "type": "PushEvent",
+      "repo": "developerfred/nata-stellar",
+      "at": "2026-10-26T01:10:50Z",
       "ref": "refs/heads/main",
       "refType": null,
       "action": null,
@@ -3295,8 +3379,8 @@
     {
       "account": "developerfred",
       "type": "PullRequestEvent",
-      "repo": "developerfred/ElixirClaw",
-      "at": "2026-10-18T21:24:09Z",
+      "repo": "developerfred/nata-stellar",
+      "at": "2026-10-26T01:10:49Z",
       "ref": null,
       "refType": null,
       "action": "merged",
@@ -3307,32 +3391,8 @@
     {
       "account": "developerfred",
       "type": "PullRequestEvent",
-      "repo": "developerfred/ElixirClaw",
-      "at": "2026-10-18T21:21:41Z",
-      "ref": null,
-      "refType": null,
-      "action": "opened",
-      "commits": 0,
-      "message": null,
-      "release": null
-    },
-    {
-      "account": "developerfred",
-      "type": "PushEvent",
-      "repo": "developerfred/ElixirClaw",
-      "at": "2026-10-18T21:20:02Z",
-      "ref": "refs/heads/chore/repo-hygiene",
-      "refType": null,
-      "action": null,
-      "commits": 0,
-      "message": null,
-      "release": null
-    },
-    {
-      "account": "developerfred",
-      "type": "PullRequestEvent",
-      "repo": "developerfred/ElixirClaw",
-      "at": "2026-10-18T21:20:00Z",
+      "repo": "developerfred/nata-stellar",
+      "at": "2026-10-26T01:10:29Z",
       "ref": null,
       "refType": null,
       "action": "merged",
@@ -3343,8 +3403,44 @@
     {
       "account": "developerfred",
       "type": "PullRequestEvent",
-      "repo": "developerfred/ElixirClaw",
-      "at": "2026-10-18T21:18:17Z",
+      "repo": "developerfred/nata-stellar",
+      "at": "2026-10-26T01:07:41Z",
+      "ref": null,
+      "refType": null,
+      "action": "assigned",
+      "commits": 0,
+      "message": null,
+      "release": null
+    },
+    {
+      "account": "developerfred",
+      "type": "PullRequestEvent",
+      "repo": "developerfred/nata-stellar",
+      "at": "2026-10-26T01:07:41Z",
+      "ref": null,
+      "refType": null,
+      "action": "opened",
+      "commits": 0,
+      "message": null,
+      "release": null
+    },
+    {
+      "account": "developerfred",
+      "type": "PullRequestEvent",
+      "repo": "developerfred/nata-stellar",
+      "at": "2026-10-26T01:05:29Z",
+      "ref": null,
+      "refType": null,
+      "action": "assigned",
+      "commits": 0,
+      "message": null,
+      "release": null
+    },
+    {
+      "account": "developerfred",
+      "type": "PullRequestEvent",
+      "repo": "developerfred/nata-stellar",
+      "at": "2026-10-26T01:05:29Z",
       "ref": null,
       "refType": null,
       "action": "opened",
@@ -3355,9 +3451,9 @@
     {
       "account": "developerfred",
       "type": "CreateEvent",
-      "repo": "developerfred/ElixirClaw",
-      "at": "2026-10-18T21:18:16Z",
-      "ref": "fix/dashboard-liveview",
+      "repo": "developerfred/nata-stellar",
+      "at": "2026-10-26T01:05:21Z",
+      "ref": "claude/project-thread-lbyksv",
       "refType": "branch",
       "action": null,
       "commits": 0,
@@ -3366,10 +3462,34 @@
     },
     {
       "account": "developerfred",
+      "type": "PullRequestEvent",
+      "repo": "developerfred/nata-stellar",
+      "at": "2026-10-26T00:59:27Z",
+      "ref": null,
+      "refType": null,
+      "action": "assigned",
+      "commits": 0,
+      "message": null,
+      "release": null
+    },
+    {
+      "account": "developerfred",
+      "type": "PullRequestEvent",
+      "repo": "developerfred/nata-stellar",
+      "at": "2026-10-26T00:59:27Z",
+      "ref": null,
+      "refType": null,
+      "action": "opened",
+      "commits": 0,
+      "message": null,
+      "release": null
+    },
+    {
+      "account": "developerfred",
       "type": "PushEvent",
-      "repo": "developerfred/unreal-engine-skills-for-claude-code-plugin",
-      "at": "2026-10-18T21:13:29Z",
-      "ref": "refs/heads/docs/mcp-toolset-quirks",
+      "repo": "developerfred/nata-stellar",
+      "at": "2026-10-26T00:59:08Z",
+      "ref": "refs/heads/claude/project-thread-rj83jh",
       "refType": null,
       "action": null,
       "commits": 0,
@@ -3379,8 +3499,32 @@
     {
       "account": "developerfred",
       "type": "PullRequestEvent",
-      "repo": "developerfred/ElixirClaw",
-      "at": "2026-10-18T21:08:52Z",
+      "repo": "developerfred/nata-stellar",
+      "at": "2026-10-26T00:59:07Z",
+      "ref": null,
+      "refType": null,
+      "action": "merged",
+      "commits": 0,
+      "message": null,
+      "release": null
+    },
+    {
+      "account": "developerfred",
+      "type": "PushEvent",
+      "repo": "developerfred/nata-stellar",
+      "at": "2026-10-26T00:58:55Z",
+      "ref": "refs/heads/main",
+      "refType": null,
+      "action": null,
+      "commits": 0,
+      "message": null,
+      "release": null
+    },
+    {
+      "account": "developerfred",
+      "type": "PullRequestEvent",
+      "repo": "developerfred/nata-stellar",
+      "at": "2026-10-26T00:58:54Z",
       "ref": null,
       "refType": null,
       "action": "merged",
@@ -3391,11 +3535,23 @@
     {
       "account": "developerfred",
       "type": "PullRequestEvent",
-      "repo": "developerfred/ElixirClaw",
-      "at": "2026-10-18T21:02:25Z",
+      "repo": "developerfred/nata-stellar",
+      "at": "2026-10-26T00:58:40Z",
       "ref": null,
       "refType": null,
-      "action": "opened",
+      "action": "merged",
+      "commits": 0,
+      "message": null,
+      "release": null
+    },
+    {
+      "account": "developerfred",
+      "type": "PushEvent",
+      "repo": "developerfred/nata-stellar",
+      "at": "2026-10-26T00:58:27Z",
+      "ref": "refs/heads/main",
+      "refType": null,
+      "action": null,
       "commits": 0,
       "message": null,
       "release": null
@@ -3403,23 +3559,23 @@
     {
       "account": "developerfred",
       "type": "PullRequestEvent",
-      "repo": "stellar/go-stellar-sdk",
-      "at": "2026-10-18T20:41:28Z",
+      "repo": "developerfred/nata-stellar",
+      "at": "2026-10-26T00:58:25Z",
       "ref": null,
       "refType": null,
-      "action": "opened",
+      "action": "merged",
       "commits": 0,
       "message": null,
       "release": null
     },
     {
       "account": "developerfred",
-      "type": "ForkEvent",
-      "repo": "stellar/go-stellar-sdk",
-      "at": "2026-10-18T20:41:04Z",
-      "ref": null,
+      "type": "PushEvent",
+      "repo": "developerfred/nata-stellar",
+      "at": "2026-10-26T00:58:13Z",
+      "ref": "refs/heads/main",
       "refType": null,
-      "action": "forked",
+      "action": null,
       "commits": 0,
       "message": null,
       "release": null
@@ -3427,8 +3583,56 @@
     {
       "account": "developerfred",
       "type": "PullRequestEvent",
-      "repo": "triggerdotdev/trigger.dev",
-      "at": "2026-10-18T20:11:59Z",
+      "repo": "developerfred/nata-stellar",
+      "at": "2026-10-26T00:58:11Z",
+      "ref": null,
+      "refType": null,
+      "action": "merged",
+      "commits": 0,
+      "message": null,
+      "release": null
+    },
+    {
+      "account": "developerfred",
+      "type": "PushEvent",
+      "repo": "developerfred/nata-stellar",
+      "at": "2026-10-26T00:57:10Z",
+      "ref": "refs/heads/main",
+      "refType": null,
+      "action": null,
+      "commits": 0,
+      "message": null,
+      "release": null
+    },
+    {
+      "account": "developerfred",
+      "type": "PullRequestEvent",
+      "repo": "developerfred/nata-stellar",
+      "at": "2026-10-26T00:57:09Z",
+      "ref": null,
+      "refType": null,
+      "action": "merged",
+      "commits": 0,
+      "message": null,
+      "release": null
+    },
+    {
+      "account": "developerfred",
+      "type": "PullRequestEvent",
+      "repo": "developerfred/nata-stellar",
+      "at": "2026-10-26T00:49:50Z",
+      "ref": null,
+      "refType": null,
+      "action": "assigned",
+      "commits": 0,
+      "message": null,
+      "release": null
+    },
+    {
+      "account": "developerfred",
+      "type": "PullRequestEvent",
+      "repo": "developerfred/nata-stellar",
+      "at": "2026-10-26T00:49:50Z",
       "ref": null,
       "refType": null,
       "action": "opened",
@@ -3439,9 +3643,9 @@
     {
       "account": "developerfred",
       "type": "CreateEvent",
-      "repo": "developerfred/trigger.dev",
-      "at": "2026-10-18T20:11:47Z",
-      "ref": "fix/extra-ca-certs-deploy",
+      "repo": "developerfred/nata-stellar",
+      "at": "2026-10-26T00:49:45Z",
+      "ref": "claude/project-thread-7o2zt9",
       "refType": "branch",
       "action": null,
       "commits": 0,
@@ -3451,23 +3655,11 @@
     {
       "account": "developerfred",
       "type": "PullRequestEvent",
-      "repo": "EpicGames/unreal-engine-skills-for-claude-code-plugin",
-      "at": "2026-10-18T20:06:45Z",
+      "repo": "developerfred/nata-stellar",
+      "at": "2026-10-26T00:47:22Z",
       "ref": null,
       "refType": null,
-      "action": "opened",
-      "commits": 0,
-      "message": null,
-      "release": null
-    },
-    {
-      "account": "developerfred",
-      "type": "ForkEvent",
-      "repo": "EpicGames/unreal-engine-skills-for-claude-code-plugin",
-      "at": "2026-10-18T19:56:07Z",
-      "ref": null,
-      "refType": null,
-      "action": "forked",
+      "action": "assigned",
       "commits": 0,
       "message": null,
       "release": null
@@ -3475,8 +3667,8 @@
     {
       "account": "developerfred",
       "type": "PullRequestEvent",
-      "repo": "0x4007/codex-goal-supervisor",
-      "at": "2026-10-18T19:01:52Z",
+      "repo": "developerfred/nata-stellar",
+      "at": "2026-10-26T00:47:22Z",
       "ref": null,
       "refType": null,
       "action": "opened",
@@ -3486,47 +3678,11 @@
     },
     {
       "account": "developerfred",
-      "type": "ForkEvent",
-      "repo": "0x4007/codex-goal-supervisor",
-      "at": "2026-10-18T18:59:55Z",
-      "ref": null,
-      "refType": null,
-      "action": "forked",
-      "commits": 0,
-      "message": null,
-      "release": null
-    },
-    {
-      "account": "developerfred",
-      "type": "ForkEvent",
-      "repo": "NousResearch/hermes-agent",
-      "at": "2026-10-15T21:38:31Z",
-      "ref": null,
-      "refType": null,
-      "action": "forked",
-      "commits": 0,
-      "message": null,
-      "release": null
-    },
-    {
-      "account": "developerfred",
-      "type": "ForkEvent",
-      "repo": "crtahlin/wasp",
-      "at": "2026-10-15T13:33:08Z",
-      "ref": null,
-      "refType": null,
-      "action": "forked",
-      "commits": 0,
-      "message": null,
-      "release": null
-    },
-    {
-      "account": "developerfred",
-      "type": "PushEvent",
-      "repo": "developerfred/doc-router",
-      "at": "2026-10-14T21:30:14Z",
-      "ref": "refs/heads/main",
-      "refType": null,
+      "type": "CreateEvent",
+      "repo": "developerfred/nata-stellar",
+      "at": "2026-10-26T00:47:15Z",
+      "ref": "docs/readme-judges",
+      "refType": "branch",
       "action": null,
       "commits": 0,
       "message": null,
@@ -3534,12 +3690,24 @@
     },
     {
       "account": "developerfred",
-      "type": "PushEvent",
-      "repo": "developerfred/doc-router",
-      "at": "2026-10-14T20:55:29Z",
-      "ref": "refs/heads/main",
+      "type": "PullRequestEvent",
+      "repo": "developerfred/nata-stellar",
+      "at": "2026-10-26T00:46:45Z",
+      "ref": null,
       "refType": null,
-      "action": null,
+      "action": "assigned",
+      "commits": 0,
+      "message": null,
+      "release": null
+    },
+    {
+      "account": "developerfred",
+      "type": "PullRequestEvent",
+      "repo": "developerfred/nata-stellar",
+      "at": "2026-10-26T00:46:45Z",
+      "ref": null,
+      "refType": null,
+      "action": "opened",
       "commits": 0,
       "message": null,
       "release": null
@@ -3547,9 +3715,9 @@
     {
       "account": "developerfred",
       "type": "PushEvent",
-      "repo": "developerfred/doc-router",
-      "at": "2026-10-14T20:54:44Z",
-      "ref": "refs/heads/main",
+      "repo": "developerfred/nata-stellar",
+      "at": "2026-10-26T00:46:44Z",
+      "ref": "refs/heads/docs/market-innovation",
       "refType": null,
       "action": null,
       "commits": 0,
@@ -3559,9 +3727,9 @@
     {
       "account": "developerfred",
       "type": "CreateEvent",
-      "repo": "developerfred/doc-router",
-      "at": "2026-10-14T20:11:31Z",
-      "ref": "main",
+      "repo": "developerfred/nata-stellar",
+      "at": "2026-10-26T00:46:38Z",
+      "ref": "docs/market-innovation",
       "refType": "branch",
       "action": null,
       "commits": 0,
@@ -3570,120 +3738,24 @@
     },
     {
       "account": "developerfred",
-      "type": "PushEvent",
-      "repo": "aipop-fun/site",
-      "at": "2026-10-14T18:36:41Z",
-      "ref": "refs/heads/main",
+      "type": "PullRequestEvent",
+      "repo": "developerfred/nata-stellar",
+      "at": "2026-10-26T00:46:04Z",
+      "ref": null,
       "refType": null,
-      "action": null,
+      "action": "assigned",
       "commits": 0,
       "message": null,
       "release": null
     },
     {
       "account": "developerfred",
-      "type": "PushEvent",
-      "repo": "developerfred/developerfred.github.io",
-      "at": "2026-10-14T18:36:39Z",
-      "ref": "refs/heads/main",
+      "type": "PullRequestEvent",
+      "repo": "developerfred/nata-stellar",
+      "at": "2026-10-26T00:46:04Z",
+      "ref": null,
       "refType": null,
-      "action": null,
-      "commits": 0,
-      "message": null,
-      "release": null
-    },
-    {
-      "account": "developerfred",
-      "type": "PushEvent",
-      "repo": "aipop-fun/site",
-      "at": "2026-10-14T18:31:35Z",
-      "ref": "refs/heads/main",
-      "refType": null,
-      "action": null,
-      "commits": 0,
-      "message": null,
-      "release": null
-    },
-    {
-      "account": "developerfred",
-      "type": "PushEvent",
-      "repo": "developerfred/developerfred.github.io",
-      "at": "2026-10-14T18:31:33Z",
-      "ref": "refs/heads/main",
-      "refType": null,
-      "action": null,
-      "commits": 0,
-      "message": null,
-      "release": null
-    },
-    {
-      "account": "developerfred",
-      "type": "PushEvent",
-      "repo": "developerfred/developerfred.github.io",
-      "at": "2026-10-14T18:26:56Z",
-      "ref": "refs/heads/main",
-      "refType": null,
-      "action": null,
-      "commits": 0,
-      "message": null,
-      "release": null
-    },
-    {
-      "account": "developerfred",
-      "type": "PushEvent",
-      "repo": "aipop-fun/site",
-      "at": "2026-10-14T18:26:53Z",
-      "ref": "refs/heads/main",
-      "refType": null,
-      "action": null,
-      "commits": 0,
-      "message": null,
-      "release": null
-    },
-    {
-      "account": "developerfred",
-      "type": "PushEvent",
-      "repo": "aipop-fun/site",
-      "at": "2026-10-14T18:17:00Z",
-      "ref": "refs/heads/main",
-      "refType": null,
-      "action": null,
-      "commits": 0,
-      "message": null,
-      "release": null
-    },
-    {
-      "account": "developerfred",
-      "type": "PushEvent",
-      "repo": "developerfred/developerfred.github.io",
-      "at": "2026-10-14T18:16:58Z",
-      "ref": "refs/heads/main",
-      "refType": null,
-      "action": null,
-      "commits": 0,
-      "message": null,
-      "release": null
-    },
-    {
-      "account": "developerfred",
-      "type": "PushEvent",
-      "repo": "aipop-fun/site",
-      "at": "2026-10-14T18:16:34Z",
-      "ref": "refs/heads/main",
-      "refType": null,
-      "action": null,
-      "commits": 0,
-      "message": null,
-      "release": null
-    },
-    {
-      "account": "developerfred",
-      "type": "PushEvent",
-      "repo": "developerfred/developerfred.github.io",
-      "at": "2026-10-14T18:16:32Z",
-      "ref": "refs/heads/main",
-      "refType": null,
-      "action": null,
+      "action": "opened",
       "commits": 0,
       "message": null,
       "release": null
@@ -3691,9 +3763,9 @@
     {
       "account": "developerfred",
       "type": "CreateEvent",
-      "repo": "aipop-fun/site",
-      "at": "2026-10-14T18:15:20Z",
-      "ref": "main",
+      "repo": "developerfred/nata-stellar",
+      "at": "2026-10-26T00:45:57Z",
+      "ref": "chore/repo-hygiene",
       "refType": "branch",
       "action": null,
       "commits": 0,
@@ -3702,63 +3774,27 @@
     },
     {
       "account": "developerfred",
-      "type": "CreateEvent",
-      "repo": "developerfred/developerfred.github.io",
-      "at": "2026-10-14T18:15:14Z",
-      "ref": "main",
-      "refType": "branch",
-      "action": null,
+      "type": "PullRequestEvent",
+      "repo": "developerfred/nata-stellar",
+      "at": "2026-10-26T00:43:02Z",
+      "ref": null,
+      "refType": null,
+      "action": "assigned",
       "commits": 0,
       "message": null,
       "release": null
     },
     {
       "account": "developerfred",
-      "type": "PublicEvent",
-      "repo": "aipop-fun/weft",
-      "at": "2026-10-14T10:30:46Z",
+      "type": "PullRequestEvent",
+      "repo": "developerfred/nata-stellar",
+      "at": "2026-10-26T00:43:02Z",
       "ref": null,
       "refType": null,
-      "action": null,
+      "action": "opened",
       "commits": 0,
       "message": null,
       "release": null
-    },
-    {
-      "account": "developerfred",
-      "type": "PushEvent",
-      "repo": "developerfred/soroban-dependency-sentinel",
-      "at": "2026-10-13T22:19:35Z",
-      "ref": "refs/heads/main",
-      "refType": null,
-      "action": null,
-      "commits": 0,
-      "message": null,
-      "release": null
-    },
-    {
-      "account": "developerfred",
-      "type": "ReleaseEvent",
-      "repo": "developerfred/soroban-dependency-sentinel",
-      "at": "2026-10-13T22:13:41Z",
-      "ref": null,
-      "refType": null,
-      "action": "published",
-      "commits": 0,
-      "message": null,
-      "release": "v0.2.1"
-    },
-    {
-      "account": "developerfred",
-      "type": "ReleaseEvent",
-      "repo": "developerfred/soroban-dependency-sentinel",
-      "at": "2026-10-13T22:12:35Z",
-      "ref": null,
-      "refType": null,
-      "action": "published",
-      "commits": 0,
-      "message": null,
-      "release": "v0.1.0"
     }
   ],
   "topRepos": [
@@ -3932,7 +3968,7 @@
   "languageBreakdown": [
     {
       "name": "TypeScript",
-      "count": 102
+      "count": 103
     },
     {
       "name": "JavaScript",
@@ -3996,54 +4032,26 @@
     }
   ],
   "stats": {
-    "totalRepos": 1242,
-    "trackedRepos": 1242,
-    "originalRepos": 177,
-    "forkedRepos": 1065,
+    "totalRepos": 1245,
+    "trackedRepos": 1245,
+    "originalRepos": 179,
+    "forkedRepos": 1066,
     "archivedRepos": 0,
     "totalStars": 155,
     "totalForks": 100,
-    "totalIssues": 429,
+    "totalIssues": 432,
     "followers": 490,
     "totalGists": 56,
     "languages": 14,
     "languagesAll": 20,
-    "pushed7d": 13,
-    "pushed30d": 17,
-    "pushed90d": 19,
-    "latestPush": "2026-10-19T03:22:25Z",
+    "pushed7d": 6,
+    "pushed30d": 19,
+    "pushed90d": 20,
+    "latestPush": "2026-10-26T09:06:02Z",
     "firstRepo": "2019-10-26T19:42:29Z",
-    "newestRepo": "2026-10-18T20:41:04Z"
+    "newestRepo": "2026-10-25T22:22:46Z"
   },
   "activityByDay": [
-    {
-      "date": "2026-09-29",
-      "count": 0
-    },
-    {
-      "date": "2026-09-30",
-      "count": 0
-    },
-    {
-      "date": "2026-10-01",
-      "count": 0
-    },
-    {
-      "date": "2026-10-02",
-      "count": 0
-    },
-    {
-      "date": "2026-10-03",
-      "count": 0
-    },
-    {
-      "date": "2026-10-04",
-      "count": 0
-    },
-    {
-      "date": "2026-10-05",
-      "count": 0
-    },
     {
       "date": "2026-10-06",
       "count": 0
@@ -4054,11 +4062,11 @@
     },
     {
       "date": "2026-10-08",
-      "count": 7
+      "count": 0
     },
     {
       "date": "2026-10-09",
-      "count": 32
+      "count": 0
     },
     {
       "date": "2026-10-10",
@@ -4074,15 +4082,15 @@
     },
     {
       "date": "2026-10-13",
-      "count": 7
+      "count": 0
     },
     {
       "date": "2026-10-14",
-      "count": 20
+      "count": 0
     },
     {
       "date": "2026-10-15",
-      "count": 5
+      "count": 0
     },
     {
       "date": "2026-10-16",
@@ -4090,15 +4098,43 @@
     },
     {
       "date": "2026-10-17",
-      "count": 2
+      "count": 0
     },
     {
       "date": "2026-10-18",
-      "count": 27
+      "count": 28
     },
     {
       "date": "2026-10-19",
+      "count": 22
+    },
+    {
+      "date": "2026-10-20",
+      "count": 1
+    },
+    {
+      "date": "2026-10-21",
+      "count": 2
+    },
+    {
+      "date": "2026-10-22",
+      "count": 2
+    },
+    {
+      "date": "2026-10-23",
       "count": 0
+    },
+    {
+      "date": "2026-10-24",
+      "count": 0
+    },
+    {
+      "date": "2026-10-25",
+      "count": 1
+    },
+    {
+      "date": "2026-10-26",
+      "count": 44
     }
   ]
 }
