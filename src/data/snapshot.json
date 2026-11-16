@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-09T12:17:51.742Z",
+  "generatedAt": "2026-11-16T12:11:30.295Z",
   "generator": "scripts/sync-github.mjs",
   "accounts": [
     "developerfred",
@@ -12,9 +12,9 @@
       "name": "codingsh",
       "bio": "Blockchain Developer, White Hat, Bridge builder and Decentralization specialist\n\nENS: codingsh.eth",
       "avatar": "https://avatars.githubusercontent.com/u/57037080?v=4",
-      "followers": 493,
+      "followers": 492,
       "following": 1652,
-      "publicRepos": 1243,
+      "publicRepos": 1245,
       "publicGists": 56,
       "location": "codingsh.eth",
       "company": null,
@@ -54,8 +54,8 @@
       "stars": 0,
       "forks": 0,
       "issues": 0,
-      "size": 20058,
-      "pushed": "2026-11-09T04:46:28Z",
+      "size": 14913,
+      "pushed": "2026-11-16T04:52:01Z",
       "created": "2026-10-14T18:15:03Z",
       "url": "https://github.com/aipop-fun/site",
       "home": "https://aipop-fun.github.io/site",
@@ -72,8 +72,8 @@
       "stars": 1,
       "forks": 2,
       "issues": 6,
-      "size": 31164,
-      "pushed": "2026-11-09T03:58:37Z",
+      "size": 31485,
+      "pushed": "2026-11-16T04:11:21Z",
       "created": "2020-11-12T14:55:20Z",
       "url": "https://github.com/developerfred/developerfred",
       "home": null,
@@ -81,6 +81,114 @@
       "archived": false,
       "fork": false,
       "license": "MIT"
+    },
+    {
+      "owner": "developerfred",
+      "name": "drips-leaderboard",
+      "desc": "Gerador automático de líderboard de contribuidores para o programa Drips Stellar Wave. Consulta a GitHub API por issues fechadas com o label drips-wave, ranqueia contribuidores po…",
+      "lang": "TypeScript",
+      "stars": 0,
+      "forks": 0,
+      "issues": 0,
+      "size": 13,
+      "pushed": "2026-11-15T13:12:15Z",
+      "created": "2026-11-15T13:10:03Z",
+      "url": "https://github.com/developerfred/drips-leaderboard",
+      "home": null,
+      "topics": [],
+      "archived": false,
+      "fork": false,
+      "license": null
+    },
+    {
+      "owner": "developerfred",
+      "name": "maat",
+      "desc": "Maat - Playwright-like em Zig com sandbox ativo por padrão",
+      "lang": "Zig",
+      "stars": 0,
+      "forks": 0,
+      "issues": 2,
+      "size": 184,
+      "pushed": "2026-11-14T13:46:48Z",
+      "created": "2026-11-02T23:54:13Z",
+      "url": "https://github.com/developerfred/maat",
+      "home": null,
+      "topics": [],
+      "archived": false,
+      "fork": false,
+      "license": null
+    },
+    {
+      "owner": "developerfred",
+      "name": "koinonia",
+      "desc": "κοινωνία — browser-based streaming studio + Zig daemon for Twitch & YouTube, agent-controlled via WebMCP. No OBS.",
+      "lang": "TypeScript",
+      "stars": 0,
+      "forks": 0,
+      "issues": 4,
+      "size": 765,
+      "pushed": "2026-11-14T02:33:45Z",
+      "created": "2026-10-26T20:37:04Z",
+      "url": "https://github.com/developerfred/koinonia",
+      "home": null,
+      "topics": [],
+      "archived": false,
+      "fork": false,
+      "license": "MIT"
+    },
+    {
+      "owner": "developerfred",
+      "name": "nata-stellar",
+      "desc": null,
+      "lang": "TypeScript",
+      "stars": 0,
+      "forks": 0,
+      "issues": 5,
+      "size": 1592,
+      "pushed": "2026-11-13T17:31:46Z",
+      "created": "2026-10-25T22:22:46Z",
+      "url": "https://github.com/developerfred/nata-stellar",
+      "home": null,
+      "topics": [],
+      "archived": false,
+      "fork": false,
+      "license": "Apache-2.0"
+    },
+    {
+      "owner": "developerfred",
+      "name": "x402-cow-gateway",
+      "desc": "Pay-per-quote x402 gateway reselling CoW Protocol swap quotes to AI agents. MCP + Claude Skill + SDK. Powered by codingsh.eth.",
+      "lang": "TypeScript",
+      "stars": 0,
+      "forks": 0,
+      "issues": 4,
+      "size": 136,
+      "pushed": "2026-11-13T15:48:13Z",
+      "created": "2026-10-09T22:45:29Z",
+      "url": "https://github.com/developerfred/x402-cow-gateway",
+      "home": null,
+      "topics": [],
+      "archived": false,
+      "fork": false,
+      "license": null
+    },
+    {
+      "owner": "developerfred",
+      "name": "developerfred.github.io",
+      "desc": "codingsh — an auto-updating build ledger of everything developerfred and aipop-fun ship. Iosevka, Remotion, TypeScript.",
+      "lang": "TypeScript",
+      "stars": 0,
+      "forks": 0,
+      "issues": 0,
+      "size": 10220,
+      "pushed": "2026-11-09T12:30:38Z",
+      "created": "2026-10-14T18:14:58Z",
+      "url": "https://github.com/developerfred/developerfred.github.io",
+      "home": "https://developerfred.github.io",
+      "topics": [],
+      "archived": false,
+      "fork": false,
+      "license": null
     },
     {
       "owner": "developerfred",
@@ -127,24 +235,6 @@
     },
     {
       "owner": "developerfred",
-      "name": "x402-cow-gateway",
-      "desc": "Pay-per-quote x402 gateway reselling CoW Protocol swap quotes to AI agents. MCP + Claude Skill + SDK. Powered by codingsh.eth.",
-      "lang": "TypeScript",
-      "stars": 0,
-      "forks": 0,
-      "issues": 3,
-      "size": 111,
-      "pushed": "2026-11-04T07:28:13Z",
-      "created": "2026-10-09T22:45:29Z",
-      "url": "https://github.com/developerfred/x402-cow-gateway",
-      "home": null,
-      "topics": [],
-      "archived": false,
-      "fork": false,
-      "license": null
-    },
-    {
-      "owner": "developerfred",
       "name": "lean-cache",
       "desc": "Content-addressable build cache for Lean 4 - skip recompilation when nothing changed",
       "lang": "Rust",
@@ -173,24 +263,6 @@
       "pushed": "2026-11-03T22:01:02Z",
       "created": "2026-11-03T20:28:36Z",
       "url": "https://github.com/developerfred/ai-coding-foundations",
-      "home": null,
-      "topics": [],
-      "archived": false,
-      "fork": false,
-      "license": null
-    },
-    {
-      "owner": "developerfred",
-      "name": "maat",
-      "desc": "Maat - Playwright-like em Zig com sandbox ativo por padrão",
-      "lang": "Zig",
-      "stars": 0,
-      "forks": 0,
-      "issues": 4,
-      "size": 176,
-      "pushed": "2026-11-03T16:06:58Z",
-      "created": "2026-11-02T23:54:13Z",
-      "url": "https://github.com/developerfred/maat",
       "home": null,
       "topics": [],
       "archived": false,
@@ -300,24 +372,6 @@
       "created": "2026-11-02T13:02:34Z",
       "url": "https://github.com/developerfred/x402-conformance-probe",
       "home": "https://x402-check.vercel.app",
-      "topics": [],
-      "archived": false,
-      "fork": false,
-      "license": null
-    },
-    {
-      "owner": "developerfred",
-      "name": "developerfred.github.io",
-      "desc": "codingsh — an auto-updating build ledger of everything developerfred and aipop-fun ship. Iosevka, Remotion, TypeScript.",
-      "lang": "TypeScript",
-      "stars": 0,
-      "forks": 0,
-      "issues": 0,
-      "size": 9115,
-      "pushed": "2026-11-02T11:59:40Z",
-      "created": "2026-10-14T18:14:58Z",
-      "url": "https://github.com/developerfred/developerfred.github.io",
-      "home": "https://developerfred.github.io",
       "topics": [],
       "archived": false,
       "fork": false,
@@ -466,42 +520,6 @@
       "archived": false,
       "fork": false,
       "license": "MIT"
-    },
-    {
-      "owner": "developerfred",
-      "name": "koinonia",
-      "desc": "κοινωνία — browser-based streaming studio + Zig daemon for Twitch & YouTube, agent-controlled via WebMCP. No OBS.",
-      "lang": "TypeScript",
-      "stars": 0,
-      "forks": 0,
-      "issues": 3,
-      "size": 1081,
-      "pushed": "2026-10-28T18:23:00Z",
-      "created": "2026-10-26T20:37:04Z",
-      "url": "https://github.com/developerfred/koinonia",
-      "home": null,
-      "topics": [],
-      "archived": false,
-      "fork": false,
-      "license": "MIT"
-    },
-    {
-      "owner": "developerfred",
-      "name": "nata-stellar",
-      "desc": null,
-      "lang": "TypeScript",
-      "stars": 0,
-      "forks": 0,
-      "issues": 3,
-      "size": 1545,
-      "pushed": "2026-10-26T12:05:15Z",
-      "created": "2026-10-25T22:22:46Z",
-      "url": "https://github.com/developerfred/nata-stellar",
-      "home": null,
-      "topics": [],
-      "archived": false,
-      "fork": false,
-      "license": "Apache-2.0"
     },
     {
       "owner": "developerfred",
@@ -3649,6 +3667,30 @@
   "events": [
     {
       "account": "developerfred",
+      "type": "ForkEvent",
+      "repo": "agent-substrate/substrate",
+      "at": "2026-11-15T12:49:52Z",
+      "ref": null,
+      "refType": null,
+      "action": "forked",
+      "commits": 0,
+      "message": null,
+      "release": null
+    },
+    {
+      "account": "developerfred",
+      "type": "PushEvent",
+      "repo": "developerfred/maat",
+      "at": "2026-11-14T13:34:22Z",
+      "ref": "refs/heads/main",
+      "refType": null,
+      "action": null,
+      "commits": 0,
+      "message": null,
+      "release": null
+    },
+    {
+      "account": "developerfred",
       "type": "PushEvent",
       "repo": "developerfred/dev-limpeza",
       "at": "2026-11-05T21:37:25Z",
@@ -3889,18 +3931,6 @@
     },
     {
       "account": "developerfred",
-      "type": "PullRequestEvent",
-      "repo": "developerfred/maat",
-      "at": "2026-11-03T15:31:23Z",
-      "ref": null,
-      "refType": null,
-      "action": "merged",
-      "commits": 0,
-      "message": null,
-      "release": null
-    },
-    {
-      "account": "developerfred",
       "type": "PushEvent",
       "repo": "developerfred/maat",
       "at": "2026-11-03T15:18:04Z",
@@ -3919,18 +3949,6 @@
       "ref": "refs/heads/feat/sdk-development",
       "refType": null,
       "action": null,
-      "commits": 0,
-      "message": null,
-      "release": null
-    },
-    {
-      "account": "developerfred",
-      "type": "PullRequestEvent",
-      "repo": "developerfred/maat",
-      "at": "2026-11-03T14:42:44Z",
-      "ref": null,
-      "refType": null,
-      "action": "opened",
       "commits": 0,
       "message": null,
       "release": null
@@ -4299,7 +4317,7 @@
   "languageBreakdown": [
     {
       "name": "TypeScript",
-      "count": 105
+      "count": 106
     },
     {
       "name": "JavaScript",
@@ -4363,54 +4381,26 @@
     }
   ],
   "stats": {
-    "totalRepos": 1274,
-    "trackedRepos": 1274,
-    "originalRepos": 197,
-    "forkedRepos": 1077,
+    "totalRepos": 1276,
+    "trackedRepos": 1276,
+    "originalRepos": 198,
+    "forkedRepos": 1078,
     "archivedRepos": 0,
     "totalStars": 154,
     "totalForks": 101,
-    "totalIssues": 459,
-    "followers": 496,
+    "totalIssues": 461,
+    "followers": 495,
     "totalGists": 56,
     "languages": 14,
     "languagesAll": 21,
-    "pushed7d": 17,
-    "pushed30d": 45,
-    "pushed90d": 48,
-    "latestPush": "2026-11-09T04:46:28Z",
+    "pushed7d": 9,
+    "pushed30d": 43,
+    "pushed90d": 50,
+    "latestPush": "2026-11-16T04:52:01Z",
     "firstRepo": "2019-10-26T19:42:29Z",
-    "newestRepo": "2026-11-04T16:33:38Z"
+    "newestRepo": "2026-11-15T13:10:03Z"
   },
   "activityByDay": [
-    {
-      "date": "2026-10-20",
-      "count": 0
-    },
-    {
-      "date": "2026-10-21",
-      "count": 0
-    },
-    {
-      "date": "2026-10-22",
-      "count": 0
-    },
-    {
-      "date": "2026-10-23",
-      "count": 0
-    },
-    {
-      "date": "2026-10-24",
-      "count": 0
-    },
-    {
-      "date": "2026-10-25",
-      "count": 0
-    },
-    {
-      "date": "2026-10-26",
-      "count": 0
-    },
     {
       "date": "2026-10-27",
       "count": 0
@@ -4433,7 +4423,7 @@
     },
     {
       "date": "2026-11-01",
-      "count": 5
+      "count": 0
     },
     {
       "date": "2026-11-02",
@@ -4441,7 +4431,7 @@
     },
     {
       "date": "2026-11-03",
-      "count": 67
+      "count": 63
     },
     {
       "date": "2026-11-04",
@@ -4465,6 +4455,34 @@
     },
     {
       "date": "2026-11-09",
+      "count": 0
+    },
+    {
+      "date": "2026-11-10",
+      "count": 0
+    },
+    {
+      "date": "2026-11-11",
+      "count": 0
+    },
+    {
+      "date": "2026-11-12",
+      "count": 0
+    },
+    {
+      "date": "2026-11-13",
+      "count": 0
+    },
+    {
+      "date": "2026-11-14",
+      "count": 1
+    },
+    {
+      "date": "2026-11-15",
+      "count": 8
+    },
+    {
+      "date": "2026-11-16",
       "count": 0
     }
   ]
