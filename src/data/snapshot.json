@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-16T12:11:30.295Z",
+  "generatedAt": "2026-11-23T13:48:53.251Z",
   "generator": "scripts/sync-github.mjs",
   "accounts": [
     "developerfred",
@@ -12,9 +12,9 @@
       "name": "codingsh",
       "bio": "Blockchain Developer, White Hat, Bridge builder and Decentralization specialist\n\nENS: codingsh.eth",
       "avatar": "https://avatars.githubusercontent.com/u/57037080?v=4",
-      "followers": 492,
+      "followers": 491,
       "following": 1652,
-      "publicRepos": 1245,
+      "publicRepos": 1252,
       "publicGists": 56,
       "location": "codingsh.eth",
       "company": null,
@@ -54,8 +54,8 @@
       "stars": 0,
       "forks": 0,
       "issues": 0,
-      "size": 14913,
-      "pushed": "2026-11-16T04:52:01Z",
+      "size": 19633,
+      "pushed": "2026-11-23T05:52:43Z",
       "created": "2026-10-14T18:15:03Z",
       "url": "https://github.com/aipop-fun/site",
       "home": "https://aipop-fun.github.io/site",
@@ -72,8 +72,8 @@
       "stars": 1,
       "forks": 2,
       "issues": 6,
-      "size": 31485,
-      "pushed": "2026-11-16T04:11:21Z",
+      "size": 31739,
+      "pushed": "2026-11-22T04:29:36Z",
       "created": "2020-11-12T14:55:20Z",
       "url": "https://github.com/developerfred/developerfred",
       "home": null,
@@ -81,6 +81,78 @@
       "archived": false,
       "fork": false,
       "license": "MIT"
+    },
+    {
+      "owner": "developerfred",
+      "name": "maat",
+      "desc": "Maat - Playwright-like em Zig com sandbox ativo por padrão",
+      "lang": "Zig",
+      "stars": 0,
+      "forks": 0,
+      "issues": 0,
+      "size": 187,
+      "pushed": "2026-11-19T12:53:15Z",
+      "created": "2026-11-02T23:54:13Z",
+      "url": "https://github.com/developerfred/maat",
+      "home": null,
+      "topics": [],
+      "archived": false,
+      "fork": false,
+      "license": null
+    },
+    {
+      "owner": "developerfred",
+      "name": "skillmaps",
+      "desc": null,
+      "lang": null,
+      "stars": 0,
+      "forks": 0,
+      "issues": 0,
+      "size": 0,
+      "pushed": "2026-11-18T21:52:54Z",
+      "created": "2026-11-18T21:52:52Z",
+      "url": "https://github.com/developerfred/skillmaps",
+      "home": null,
+      "topics": [],
+      "archived": false,
+      "fork": false,
+      "license": null
+    },
+    {
+      "owner": "developerfred",
+      "name": "nata-stellar",
+      "desc": null,
+      "lang": "TypeScript",
+      "stars": 0,
+      "forks": 0,
+      "issues": 6,
+      "size": 1712,
+      "pushed": "2026-11-17T06:20:42Z",
+      "created": "2026-10-25T22:22:46Z",
+      "url": "https://github.com/developerfred/nata-stellar",
+      "home": null,
+      "topics": [],
+      "archived": false,
+      "fork": false,
+      "license": "Apache-2.0"
+    },
+    {
+      "owner": "developerfred",
+      "name": "developerfred.github.io",
+      "desc": "codingsh — an auto-updating build ledger of everything developerfred and aipop-fun ship. Iosevka, Remotion, TypeScript.",
+      "lang": "TypeScript",
+      "stars": 0,
+      "forks": 0,
+      "issues": 0,
+      "size": 11296,
+      "pushed": "2026-11-16T12:25:16Z",
+      "created": "2026-10-14T18:14:58Z",
+      "url": "https://github.com/developerfred/developerfred.github.io",
+      "home": "https://developerfred.github.io",
+      "topics": [],
+      "archived": false,
+      "fork": false,
+      "license": null
     },
     {
       "owner": "developerfred",
@@ -94,24 +166,6 @@
       "pushed": "2026-11-15T13:12:15Z",
       "created": "2026-11-15T13:10:03Z",
       "url": "https://github.com/developerfred/drips-leaderboard",
-      "home": null,
-      "topics": [],
-      "archived": false,
-      "fork": false,
-      "license": null
-    },
-    {
-      "owner": "developerfred",
-      "name": "maat",
-      "desc": "Maat - Playwright-like em Zig com sandbox ativo por padrão",
-      "lang": "Zig",
-      "stars": 0,
-      "forks": 0,
-      "issues": 2,
-      "size": 184,
-      "pushed": "2026-11-14T13:46:48Z",
-      "created": "2026-11-02T23:54:13Z",
-      "url": "https://github.com/developerfred/maat",
       "home": null,
       "topics": [],
       "archived": false,
@@ -138,24 +192,6 @@
     },
     {
       "owner": "developerfred",
-      "name": "nata-stellar",
-      "desc": null,
-      "lang": "TypeScript",
-      "stars": 0,
-      "forks": 0,
-      "issues": 5,
-      "size": 1592,
-      "pushed": "2026-11-13T17:31:46Z",
-      "created": "2026-10-25T22:22:46Z",
-      "url": "https://github.com/developerfred/nata-stellar",
-      "home": null,
-      "topics": [],
-      "archived": false,
-      "fork": false,
-      "license": "Apache-2.0"
-    },
-    {
-      "owner": "developerfred",
       "name": "x402-cow-gateway",
       "desc": "Pay-per-quote x402 gateway reselling CoW Protocol swap quotes to AI agents. MCP + Claude Skill + SDK. Powered by codingsh.eth.",
       "lang": "TypeScript",
@@ -167,24 +203,6 @@
       "created": "2026-10-09T22:45:29Z",
       "url": "https://github.com/developerfred/x402-cow-gateway",
       "home": null,
-      "topics": [],
-      "archived": false,
-      "fork": false,
-      "license": null
-    },
-    {
-      "owner": "developerfred",
-      "name": "developerfred.github.io",
-      "desc": "codingsh — an auto-updating build ledger of everything developerfred and aipop-fun ship. Iosevka, Remotion, TypeScript.",
-      "lang": "TypeScript",
-      "stars": 0,
-      "forks": 0,
-      "issues": 0,
-      "size": 10220,
-      "pushed": "2026-11-09T12:30:38Z",
-      "created": "2026-10-14T18:14:58Z",
-      "url": "https://github.com/developerfred/developerfred.github.io",
-      "home": "https://developerfred.github.io",
       "topics": [],
       "archived": false,
       "fork": false,
@@ -397,24 +415,6 @@
     },
     {
       "owner": "developerfred",
-      "name": "qwenn-risk",
-      "desc": null,
-      "lang": "Python",
-      "stars": 0,
-      "forks": 0,
-      "issues": 0,
-      "size": 24,
-      "pushed": "2026-11-01T22:16:54Z",
-      "created": "2026-11-01T21:58:37Z",
-      "url": "https://github.com/developerfred/qwenn-risk",
-      "home": null,
-      "topics": [],
-      "archived": false,
-      "fork": false,
-      "license": null
-    },
-    {
-      "owner": "developerfred",
       "name": "qwenn-strategies",
       "desc": null,
       "lang": "Python",
@@ -443,6 +443,24 @@
       "pushed": "2026-11-01T22:16:54Z",
       "created": "2026-11-01T21:58:38Z",
       "url": "https://github.com/developerfred/qwenn-rpc",
+      "home": null,
+      "topics": [],
+      "archived": false,
+      "fork": false,
+      "license": null
+    },
+    {
+      "owner": "developerfred",
+      "name": "qwenn-risk",
+      "desc": null,
+      "lang": "Python",
+      "stars": 0,
+      "forks": 0,
+      "issues": 0,
+      "size": 24,
+      "pushed": "2026-11-01T22:16:54Z",
+      "created": "2026-11-01T21:58:37Z",
+      "url": "https://github.com/developerfred/qwenn-risk",
       "home": null,
       "topics": [],
       "archived": false,
@@ -3668,11 +3686,119 @@
     {
       "account": "developerfred",
       "type": "ForkEvent",
+      "repo": "stas00/ml-engineering",
+      "at": "2026-11-19T01:48:20Z",
+      "ref": null,
+      "refType": null,
+      "action": "forked",
+      "commits": 0,
+      "message": null,
+      "release": null
+    },
+    {
+      "account": "developerfred",
+      "type": "CreateEvent",
+      "repo": "GambiarraFinance/receita-federal-client-python",
+      "at": "2026-11-19T01:38:52Z",
+      "ref": "main",
+      "refType": "branch",
+      "action": null,
+      "commits": 0,
+      "message": null,
+      "release": null
+    },
+    {
+      "account": "developerfred",
+      "type": "CreateEvent",
+      "repo": "GambiarraFinance/skill-calculadora-rtc-gerador-danfse",
+      "at": "2026-11-19T01:19:40Z",
+      "ref": "main",
+      "refType": "branch",
+      "action": null,
+      "commits": 0,
+      "message": null,
+      "release": null
+    },
+    {
+      "account": "developerfred",
+      "type": "ForkEvent",
+      "repo": "wheresryan22/anatomy",
+      "at": "2026-11-18T21:25:57Z",
+      "ref": null,
+      "refType": null,
+      "action": "forked",
+      "commits": 0,
+      "message": null,
+      "release": null
+    },
+    {
+      "account": "developerfred",
+      "type": "ForkEvent",
+      "repo": "elementalsouls/Claude-BugHunter",
+      "at": "2026-11-18T21:14:52Z",
+      "ref": null,
+      "refType": null,
+      "action": "forked",
+      "commits": 0,
+      "message": null,
+      "release": null
+    },
+    {
+      "account": "developerfred",
+      "type": "ForkEvent",
+      "repo": "unsplash/datasets",
+      "at": "2026-11-18T00:18:27Z",
+      "ref": null,
+      "refType": null,
+      "action": "forked",
+      "commits": 0,
+      "message": null,
+      "release": null
+    },
+    {
+      "account": "developerfred",
+      "type": "ForkEvent",
+      "repo": "subhra74/xdm",
+      "at": "2026-11-17T20:44:53Z",
+      "ref": null,
+      "refType": null,
+      "action": "forked",
+      "commits": 0,
+      "message": null,
+      "release": null
+    },
+    {
+      "account": "developerfred",
+      "type": "ForkEvent",
+      "repo": "elie222/rakazo",
+      "at": "2026-11-17T20:43:59Z",
+      "ref": null,
+      "refType": null,
+      "action": "forked",
+      "commits": 0,
+      "message": null,
+      "release": null
+    },
+    {
+      "account": "developerfred",
+      "type": "ForkEvent",
       "repo": "agent-substrate/substrate",
       "at": "2026-11-15T12:49:52Z",
       "ref": null,
       "refType": null,
       "action": "forked",
+      "commits": 0,
+      "message": null,
+      "release": null
+    },
+    {
+      "account": "developerfred",
+      "type": "PushEvent",
+      "repo": "developerfred/maat",
+      "at": "2026-11-14T13:45:22Z",
+      "ref": "refs/heads/main",
+      "refType": null,
+      "action": null,
       "commits": 0,
       "message": null,
       "release": null
@@ -3763,30 +3889,6 @@
     },
     {
       "account": "developerfred",
-      "type": "PullRequestEvent",
-      "repo": "developerfred/lean-cache",
-      "at": "2026-11-04T02:03:18Z",
-      "ref": null,
-      "refType": null,
-      "action": "merged",
-      "commits": 0,
-      "message": null,
-      "release": null
-    },
-    {
-      "account": "developerfred",
-      "type": "PullRequestEvent",
-      "repo": "developerfred/lean-cache",
-      "at": "2026-11-04T01:53:27Z",
-      "ref": null,
-      "refType": null,
-      "action": "opened",
-      "commits": 0,
-      "message": null,
-      "release": null
-    },
-    {
-      "account": "developerfred",
       "type": "PushEvent",
       "repo": "developerfred/ai-coding-foundations",
       "at": "2026-11-03T21:54:24Z",
@@ -3849,18 +3951,6 @@
       "account": "developerfred",
       "type": "PushEvent",
       "repo": "developerfred/ai-coding-foundations",
-      "at": "2026-11-03T20:55:35Z",
-      "ref": "refs/heads/main",
-      "refType": null,
-      "action": null,
-      "commits": 0,
-      "message": null,
-      "release": null
-    },
-    {
-      "account": "developerfred",
-      "type": "PushEvent",
-      "repo": "developerfred/ai-coding-foundations",
       "at": "2026-11-03T20:43:11Z",
       "ref": "refs/heads/main",
       "refType": null,
@@ -3871,106 +3961,10 @@
     },
     {
       "account": "developerfred",
-      "type": "CreateEvent",
-      "repo": "developerfred/ai-coding-foundations",
-      "at": "2026-11-03T20:28:44Z",
-      "ref": "main",
-      "refType": "branch",
-      "action": null,
-      "commits": 0,
-      "message": null,
-      "release": null
-    },
-    {
-      "account": "developerfred",
-      "type": "PullRequestEvent",
-      "repo": "developerfred/maat",
-      "at": "2026-11-03T16:04:49Z",
-      "ref": null,
-      "refType": null,
-      "action": "merged",
-      "commits": 0,
-      "message": null,
-      "release": null
-    },
-    {
-      "account": "developerfred",
-      "type": "PullRequestEvent",
-      "repo": "developerfred/maat",
-      "at": "2026-11-03T15:54:54Z",
-      "ref": null,
-      "refType": null,
-      "action": "opened",
-      "commits": 0,
-      "message": null,
-      "release": null
-    },
-    {
-      "account": "developerfred",
-      "type": "ForkEvent",
-      "repo": "JiaFeiMiao-K-Cat/DiscImageStudio",
-      "at": "2026-11-03T15:51:03Z",
-      "ref": null,
-      "refType": null,
-      "action": "forked",
-      "commits": 0,
-      "message": null,
-      "release": null
-    },
-    {
-      "account": "developerfred",
-      "type": "ForkEvent",
-      "repo": "anthropics/FlashProve",
-      "at": "2026-11-03T15:48:21Z",
-      "ref": null,
-      "refType": null,
-      "action": "forked",
-      "commits": 0,
-      "message": null,
-      "release": null
-    },
-    {
-      "account": "developerfred",
       "type": "PushEvent",
       "repo": "developerfred/maat",
       "at": "2026-11-03T15:18:04Z",
       "ref": "refs/heads/feat/sdk-development",
-      "refType": null,
-      "action": null,
-      "commits": 0,
-      "message": null,
-      "release": null
-    },
-    {
-      "account": "developerfred",
-      "type": "PushEvent",
-      "repo": "developerfred/maat",
-      "at": "2026-11-03T15:14:26Z",
-      "ref": "refs/heads/feat/sdk-development",
-      "refType": null,
-      "action": null,
-      "commits": 0,
-      "message": null,
-      "release": null
-    },
-    {
-      "account": "developerfred",
-      "type": "CreateEvent",
-      "repo": "developerfred/maat",
-      "at": "2026-11-03T14:42:34Z",
-      "ref": "feat/sdk-development",
-      "refType": "branch",
-      "action": null,
-      "commits": 0,
-      "message": null,
-      "release": null
-    },
-    {
-      "account": "developerfred",
-      "type": "PushEvent",
-      "repo": "developerfred/maat",
-      "at": "2026-11-03T13:24:44Z",
-      "ref": "refs/heads/main",
       "refType": null,
       "action": null,
       "commits": 0,
@@ -4006,18 +4000,6 @@
       "type": "PushEvent",
       "repo": "developerfred/maat",
       "at": "2026-11-03T12:42:52Z",
-      "ref": "refs/heads/main",
-      "refType": null,
-      "action": null,
-      "commits": 0,
-      "message": null,
-      "release": null
-    },
-    {
-      "account": "developerfred",
-      "type": "PushEvent",
-      "repo": "developerfred/maat",
-      "at": "2026-11-03T12:39:44Z",
       "ref": "refs/heads/main",
       "refType": null,
       "action": null,
@@ -4068,18 +4050,6 @@
       "at": "2026-11-03T12:03:20Z",
       "ref": "refs/heads/main",
       "refType": null,
-      "action": null,
-      "commits": 0,
-      "message": null,
-      "release": null
-    },
-    {
-      "account": "developerfred",
-      "type": "CreateEvent",
-      "repo": "developerfred/maat",
-      "at": "2026-11-03T11:52:24Z",
-      "ref": "issue-21-ci",
-      "refType": "branch",
       "action": null,
       "commits": 0,
       "message": null,
@@ -4140,6 +4110,54 @@
       "at": "2026-11-03T02:04:50Z",
       "ref": "refs/heads/main",
       "refType": null,
+      "action": null,
+      "commits": 0,
+      "message": null,
+      "release": null
+    },
+    {
+      "account": "developerfred",
+      "type": "PushEvent",
+      "repo": "developerfred/maat",
+      "at": "2026-11-03T01:57:25Z",
+      "ref": "refs/heads/main",
+      "refType": null,
+      "action": null,
+      "commits": 0,
+      "message": null,
+      "release": null
+    },
+    {
+      "account": "developerfred",
+      "type": "PushEvent",
+      "repo": "developerfred/maat",
+      "at": "2026-11-03T01:16:36Z",
+      "ref": "refs/heads/main",
+      "refType": null,
+      "action": null,
+      "commits": 0,
+      "message": null,
+      "release": null
+    },
+    {
+      "account": "developerfred",
+      "type": "PushEvent",
+      "repo": "developerfred/maat",
+      "at": "2026-11-03T01:07:03Z",
+      "ref": "refs/heads/main",
+      "refType": null,
+      "action": null,
+      "commits": 0,
+      "message": null,
+      "release": null
+    },
+    {
+      "account": "developerfred",
+      "type": "CreateEvent",
+      "repo": "developerfred/maat",
+      "at": "2026-11-03T01:06:50Z",
+      "ref": "feat/tests",
+      "refType": "branch",
       "action": null,
       "commits": 0,
       "message": null,
@@ -4381,61 +4399,33 @@
     }
   ],
   "stats": {
-    "totalRepos": 1276,
-    "trackedRepos": 1276,
-    "originalRepos": 198,
-    "forkedRepos": 1078,
+    "totalRepos": 1283,
+    "trackedRepos": 1283,
+    "originalRepos": 199,
+    "forkedRepos": 1084,
     "archivedRepos": 0,
     "totalStars": 154,
     "totalForks": 101,
-    "totalIssues": 461,
-    "followers": 495,
+    "totalIssues": 460,
+    "followers": 494,
     "totalGists": 56,
     "languages": 14,
     "languagesAll": 21,
     "pushed7d": 9,
-    "pushed30d": 43,
-    "pushed90d": 50,
-    "latestPush": "2026-11-16T04:52:01Z",
+    "pushed30d": 42,
+    "pushed90d": 56,
+    "latestPush": "2026-11-23T05:52:43Z",
     "firstRepo": "2019-10-26T19:42:29Z",
-    "newestRepo": "2026-11-15T13:10:03Z"
+    "newestRepo": "2026-11-19T01:48:20Z"
   },
   "activityByDay": [
     {
-      "date": "2026-10-27",
-      "count": 0
-    },
-    {
-      "date": "2026-10-28",
-      "count": 0
-    },
-    {
-      "date": "2026-10-29",
-      "count": 0
-    },
-    {
-      "date": "2026-10-30",
-      "count": 0
-    },
-    {
-      "date": "2026-10-31",
-      "count": 0
-    },
-    {
-      "date": "2026-11-01",
-      "count": 0
-    },
-    {
-      "date": "2026-11-02",
-      "count": 16
-    },
-    {
       "date": "2026-11-03",
-      "count": 63
+      "count": 48
     },
     {
       "date": "2026-11-04",
-      "count": 10
+      "count": 8
     },
     {
       "date": "2026-11-05",
@@ -4475,7 +4465,7 @@
     },
     {
       "date": "2026-11-14",
-      "count": 1
+      "count": 2
     },
     {
       "date": "2026-11-15",
@@ -4483,6 +4473,34 @@
     },
     {
       "date": "2026-11-16",
+      "count": 2
+    },
+    {
+      "date": "2026-11-17",
+      "count": 5
+    },
+    {
+      "date": "2026-11-18",
+      "count": 7
+    },
+    {
+      "date": "2026-11-19",
+      "count": 4
+    },
+    {
+      "date": "2026-11-20",
+      "count": 0
+    },
+    {
+      "date": "2026-11-21",
+      "count": 0
+    },
+    {
+      "date": "2026-11-22",
+      "count": 0
+    },
+    {
+      "date": "2026-11-23",
       "count": 0
     }
   ]
